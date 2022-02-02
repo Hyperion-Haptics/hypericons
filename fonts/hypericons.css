@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Hypericons';
+    src:
+        url('Hypericons.woff') format('woff'),
+        url('Hypericons.ttf') format('truetype'),
+        /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+        url('Hypericons.svg') format('svg');
+    /* iOS 4.1- */
+    font-display: swap;
+}
+
+[class^='hi-'], [class*='hi-'] {
+    font-family: 'Hypericons' !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.hi-circle-fill:before { content: '\e000';}
+.hi-circle-line:before { content: '\e001';}
+.hi-circle-mid:before { content: '\e002';}
+.hi-circle-small-fill:before { content: '\e003';}
+.hi-circle-small-line:before { content: '\e004';}
+.hi-circle-small-mid:before { content: '\e005';}
+.hi-crossed-eye-line:before { content: '\e006';}
+.hi-eraser-fill:before { content: '\e007';}
+.hi-eraser-line:before { content: '\e008';}
+.hi-eraser-mid:before { content: '\e009';}
+.hi-eye-line:before { content: '\e00a';}
+.hi-eyedropper-fill:before { content: '\e00b';}
+.hi-eyedropper-line:before { content: '\e00c';}
+.hi-eyedropper-mid:before { content: '\e00d';}
+.hi-layer-fill:before { content: '\e00e';}
+.hi-layer-line:before { content: '\e00f';}
+.hi-paint-bucket-fill:before { content: '\e010';}
+.hi-paint-bucket-line:before { content: '\e011';}
+.hi-paint-bucket-mid:before { content: '\e012';}
+.hi-path-fill:before { content: '\e013';}
+.hi-path-line:before { content: '\e014';}
+.hi-path-mid:before { content: '\e015';}
+.hi-pencil-fill:before { content: '\e016';}
+.hi-pencil-line:before { content: '\e017';}
+.hi-pencil-mid:before { content: '\e018';}
+.hi-redo-line:before { content: '\e019';}
+.hi-spray-fill:before { content: '\e01a';}
+.hi-spray-line:before { content: '\e01b';}
+.hi-spray-mid:before { content: '\e01c';}
+.hi-square-fill:before { content: '\e01d';}
+.hi-square-line:before { content: '\e01e';}
+.hi-square-mid:before { content: '\e01f';}
+.hi-square-small-fill:before { content: '\e020';}
+.hi-square-small-line:before { content: '\e021';}
+.hi-square-small-mid:before { content: '\e022';}
+.hi-trash-fill:before { content: '\e023';}
+.hi-trash-line:before { content: '\e024';}
+.hi-undo-line:before { content: '\e025';}
