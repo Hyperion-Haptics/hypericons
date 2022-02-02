@@ -1,5 +1,4 @@
-@font-face {
-  font-family: "Hypericons";
+@font-face {font-family: "Hypericons";
   src: url('Hypericons.eot?t=1643843505927'); /* IE9*/
   src: url('Hypericons.eot?t=1643843505927#iefix') format('embedded-opentype'), /* IE6-IE8 */
   url("Hypericons.woff2?t=1643843505927") format("woff2"),
@@ -10,12 +9,11 @@
 
 [class^="hi-"], [class*=" hi-"] {
   font-family: 'Hypericons' !important;
-  font-size:16px;
+  font-size: 16px;
   font-style:normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 
 .hi-circle-fill:before { content: "\ea01"; }
 .hi-circle-line:before { content: "\ea02"; }
@@ -55,3 +53,43 @@
 .hi-trash-fill:before { content: "\ea24"; }
 .hi-trash-line:before { content: "\ea25"; }
 .hi-undo-line:before { content: "\ea26"; }
+
+$hi-circle-fill: "\ea01";
+$hi-circle-line: "\ea02";
+$hi-circle-mid: "\ea03";
+$hi-circle-small-fill: "\ea04";
+$hi-circle-small-line: "\ea05";
+$hi-circle-small-mid: "\ea06";
+$hi-eraser-fill: "\ea07";
+$hi-eraser-line: "\ea08";
+$hi-eraser-mid: "\ea09";
+$hi-eye-crossed-line: "\ea0a";
+$hi-eye-line: "\ea0b";
+$hi-eyedropper-fill: "\ea0c";
+$hi-eyedropper-line: "\ea0d";
+$hi-eyedropper-mid: "\ea0e";
+$hi-layer-fill: "\ea0f";
+$hi-layer-line: "\ea10";
+$hi-paint-bucket-fill: "\ea11";
+$hi-paint-bucket-line: "\ea12";
+$hi-paint-bucket-mid: "\ea13";
+$hi-path-fill: "\ea14";
+$hi-path-line: "\ea15";
+$hi-path-mid: "\ea16";
+$hi-pencil-fill: "\ea17";
+$hi-pencil-line: "\ea18";
+$hi-pencil-mid: "\ea19";
+$hi-redo-line: "\ea1a";
+$hi-spray-fill: "\ea1b";
+$hi-spray-line: "\ea1c";
+$hi-spray-mid: "\ea1d";
+$hi-square-fill: "\ea1e";
+$hi-square-line: "\ea1f";
+$hi-square-mid: "\ea20";
+$hi-square-small-fill: "\ea21";
+$hi-square-small-line: "\ea22";
+$hi-square-small-mid: "\ea23";
+$hi-trash-fill: "\ea24";
+$hi-trash-line: "\ea25";
+$hi-undo-line: "\ea26";
+
