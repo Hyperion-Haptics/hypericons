@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Hypericons";
-  src: url('Hypericons.eot?t=1643844741496'); /* IE9*/
-  src: url('Hypericons.eot?t=1643844741496#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("Hypericons.woff2?t=1643844741496") format("woff2"),
-  url("Hypericons.woff?t=1643844741496") format("woff"),
-  url('Hypericons.ttf?t=1643844741496') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('Hypericons.svg?t=1643844741496#Hypericons') format('svg'); /* iOS 4.1- */
+  src: url('Hypericons.eot?t=1643847827863'); /* IE9*/
+  src: url('Hypericons.eot?t=1643847827863#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("Hypericons.woff2?t=1643847827863") format("woff2"),
+  url("Hypericons.woff?t=1643847827863") format("woff"),
+  url('Hypericons.ttf?t=1643847827863') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('Hypericons.svg?t=1643847827863#Hypericons') format('svg'); /* iOS 4.1- */
 }
 
 [class^="hi-"], [class*=" hi-"] {
