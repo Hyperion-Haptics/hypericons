@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Hypericons";
-  src: url('Hypericons.eot?t=1643847827863'); /* IE9*/
-  src: url('Hypericons.eot?t=1643847827863#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("Hypericons.woff2?t=1643847827863") format("woff2"),
-  url("Hypericons.woff?t=1643847827863") format("woff"),
-  url('Hypericons.ttf?t=1643847827863') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('Hypericons.svg?t=1643847827863#Hypericons') format('svg'); /* iOS 4.1- */
+  src: url('Hypericons.eot?t=1643848704876'); /* IE9*/
+  src: url('Hypericons.eot?t=1643848704876#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("Hypericons.woff2?t=1643848704876") format("woff2"),
+  url("Hypericons.woff?t=1643848704876") format("woff"),
+  url('Hypericons.ttf?t=1643848704876') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('Hypericons.svg?t=1643848704876#Hypericons') format('svg'); /* iOS 4.1- */
 }
 
 [class^="hi-"], [class*=" hi-"] {
@@ -33,25 +33,26 @@
 .hi-eyedropper-mid:before { content: "\ea0e"; }
 .hi-layer-fill:before { content: "\ea0f"; }
 .hi-layer-line:before { content: "\ea10"; }
-.hi-paint-bucket-fill:before { content: "\ea11"; }
-.hi-paint-bucket-line:before { content: "\ea12"; }
-.hi-paint-bucket-mid:before { content: "\ea13"; }
-.hi-path-fill:before { content: "\ea14"; }
-.hi-path-line:before { content: "\ea15"; }
-.hi-path-mid:before { content: "\ea16"; }
-.hi-pencil-fill:before { content: "\ea17"; }
-.hi-pencil-line:before { content: "\ea18"; }
-.hi-pencil-mid:before { content: "\ea19"; }
-.hi-redo-line:before { content: "\ea1a"; }
-.hi-spray-fill:before { content: "\ea1b"; }
-.hi-spray-line:before { content: "\ea1c"; }
-.hi-spray-mid:before { content: "\ea1d"; }
-.hi-square-fill:before { content: "\ea1e"; }
-.hi-square-line:before { content: "\ea1f"; }
-.hi-square-mid:before { content: "\ea20"; }
-.hi-square-small-fill:before { content: "\ea21"; }
-.hi-square-small-line:before { content: "\ea22"; }
-.hi-square-small-mid:before { content: "\ea23"; }
-.hi-trash-fill:before { content: "\ea24"; }
-.hi-trash-line:before { content: "\ea25"; }
-.hi-undo-line:before { content: "\ea26"; }
+.hi-menu:before { content: "\ea11"; }
+.hi-paint-bucket-fill:before { content: "\ea12"; }
+.hi-paint-bucket-line:before { content: "\ea13"; }
+.hi-paint-bucket-mid:before { content: "\ea14"; }
+.hi-path-fill:before { content: "\ea15"; }
+.hi-path-line:before { content: "\ea16"; }
+.hi-path-mid:before { content: "\ea17"; }
+.hi-pencil-fill:before { content: "\ea18"; }
+.hi-pencil-line:before { content: "\ea19"; }
+.hi-pencil-mid:before { content: "\ea1a"; }
+.hi-redo-line:before { content: "\ea1b"; }
+.hi-spray-fill:before { content: "\ea1c"; }
+.hi-spray-line:before { content: "\ea1d"; }
+.hi-spray-mid:before { content: "\ea1e"; }
+.hi-square-fill:before { content: "\ea1f"; }
+.hi-square-line:before { content: "\ea20"; }
+.hi-square-mid:before { content: "\ea21"; }
+.hi-square-small-fill:before { content: "\ea22"; }
+.hi-square-small-line:before { content: "\ea23"; }
+.hi-square-small-mid:before { content: "\ea24"; }
+.hi-trash-fill:before { content: "\ea25"; }
+.hi-trash-line:before { content: "\ea26"; }
+.hi-undo-line:before { content: "\ea27"; }
