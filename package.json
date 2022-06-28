@@ -1,7 +1,10 @@
 {
-  "dependencies": {
-    "scale-that-svg": "^1.0.5",
-    "svgpath": "^2.5.0",
-    "svgtofont": "^3.14.0"
-  }
+    "dependencies": {
+        "scale-that-svg": "^1.0.5",
+        "svgpath": "^2.5.0",
+        "svgtofont": "^3.14.0"
+    },
+    "scripts": {
+        "build": "node test.js && python buildHTML.py"
+    }
 }
