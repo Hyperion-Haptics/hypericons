@@ -1,1 +1,10 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 450"><rect x="50" y="50" width="50" height="50" rx="12.5"/><rect x="150" y="50" width="50" height="50" rx="12.5"/><rect x="250" y="50" width="50" height="50" rx="12.5"/><rect x="50" y="250" width="50" height="50" rx="12.5"/><rect x="50" y="150" width="50" height="50" rx="12.5"/><path d="M375,150H275a25,25,0,0,0-25,25v75H175a25,25,0,0,0-25,25V375a25,25,0,0,0,25,25H375a25,25,0,0,0,25-25V175A25,25,0,0,0,375,150ZM275,300a25,25,0,0,0,25-25V200h50V350H200V300Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="450" viewBox="0 0 450 450">
+  <g>
+    <rect x="50" y="50" width="50" height="50" rx="12.5" style="fill: #000026"/>
+    <rect x="150" y="50" width="50" height="50" rx="12.5" style="fill: #000026"/>
+    <rect x="250" y="50" width="50" height="50" rx="12.5" style="fill: #000026"/>
+    <rect x="50" y="250" width="50" height="50" rx="12.5" style="fill: #000026"/>
+    <rect x="50" y="150" width="50" height="50" rx="12.5" style="fill: #000026"/>
+    <path d="M375,150H275a25,25,0,0,0-25,25v75H175a25,25,0,0,0-25,25V375a25,25,0,0,0,25,25H375a25,25,0,0,0,25-25V175A25,25,0,0,0,375,150ZM275,300a25,25,0,0,0,25-25V200h50V350H200V300Z" style="fill: #000026"/>
+  </g>
+</svg>
