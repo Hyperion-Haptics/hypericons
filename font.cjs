@@ -77,38 +77,61 @@ fs.readdirSync(srcPath).forEach((file) => {
 	);
 	let noStylePaths = paths.filter((path) => !path.includes("style"));
 	let bluePaths = paths.filter((path) => path.includes("style"));
-	//create a new svg file with only the blue paths by removing the nostylepaths from the original file
-	console.log(path.basename(file, ".svg"));
-	let accentPathFile = fileContents.replaceArray(noStylePaths, "");
-	//write accent path file to temp folder with suffix -accent
-	fs.writeFileSync(
-		path.join(tempPath, `${path.basename(file, ".svg")}-accent.svg`),
-		accentPathFile
-	);
+	if (bluePaths.length > 0) {
+		//create a new svg file with only the blue paths by removing the nostylepaths from the original file
+		console.log(path.basename(file, ".svg"));
+		let accentPathFile = fileContents.replaceArray(noStylePaths, "");
+		//write accent path file to temp folder with suffix -accent
+		fs.writeFileSync(
+			path.join(tempPath, `${path.basename(file, ".svg")}-accent.svg`),
+			accentPathFile
+		);
 
-	//create a new svg file with only the nostyle paths
-	let noStylePathFile = fileContents.replaceArray(bluePaths, "");
-	//write nostyle path file to temp folder suffix -base
-	fs.writeFileSync(
-		path.join(tempPath, `${path.basename(file, ".svg")}-base.svg`),
-		noStylePathFile
-	);
+		//create a new svg file with only the nostyle paths
+		let noStylePathFile = fileContents.replaceArray(bluePaths, "");
+		//write nostyle path file to temp folder suffix -base
+		fs.writeFileSync(
+			path.join(tempPath, `${path.basename(file, ".svg")}-base.svg`),
+			noStylePathFile
+		);
 
-	//write the base path file to font stream
-	var baseUnicode = writeFontStream(
-		path.join(tempPath, `${path.basename(file, ".svg")}-base.svg`)
-	);
-	//write the accent path file to font stream
-	var accentUnicode = writeFontStream(
-		path.join(tempPath, `${path.basename(file, ".svg")}-accent.svg`)
-	);
+		//write the base path file to font stream
+		var baseUnicode = writeFontStream(
+			path.join(tempPath, `${path.basename(file, ".svg")}-base.svg`)
+		);
+		//write the accent path file to font stream
+		var accentUnicode = writeFontStream(
+			path.join(tempPath, `${path.basename(file, ".svg")}-accent.svg`)
+		);
 
-	//add the base and accent unicode to the manifest
-	manifest.icons[path.basename(file, ".svg")] = {
-		class: manifest.prefix + path.basename(file, ".svg"),
-		base: "\\" + decimalToHex(baseUnicode),
-		accent: "\\" + decimalToHex(accentUnicode),
-	};
+		//add the base and accent unicode to the manifest
+		manifest.icons[path.basename(file, ".svg")] = {
+			class: manifest.prefix + path.basename(file, ".svg"),
+			base: "\\" + decimalToHex(baseUnicode),
+			accent: "\\" + decimalToHex(accentUnicode),
+		};
+	} else {
+		//create a new svg file with only the blue paths by removing the nostylepaths from the original file
+		console.log(path.basename(file, ".svg"));
+		//create a new svg file with only the nostyle paths
+		let noStylePathFile = fileContents;
+		//write nostyle path file to temp folder suffix -base
+		fs.writeFileSync(
+			path.join(tempPath, `${path.basename(file, ".svg")}-base.svg`),
+			noStylePathFile
+		);
+
+		//write the base path file to font stream
+		var baseUnicode = writeFontStream(
+			path.join(tempPath, `${path.basename(file, ".svg")}-base.svg`)
+		);
+
+		//add the base and accent unicode to the manifest
+		manifest.icons[path.basename(file, ".svg")] = {
+			class: manifest.prefix + path.basename(file, ".svg"),
+			base: "\\" + decimalToHex(baseUnicode),
+		};
+	}
 });
 
 setTimeout(() => {
@@ -188,8 +211,11 @@ setTimeout(() => {
 
 	for (const [key, value] of Object.entries(manifest.icons)) {
 		css += `
-	.${value.class}:after {content: "${value.base}";}
-	.${value.class}:before {content: "${value.accent}";}`;
+	.${value.class}:after {content: "${value.base}";}`;
+		if (value.accent) {
+			css += `
+		.${value.class}:before {content: "${value.accent}";}`;
+		}
 	}
 
 	fs.writeFileSync("fonts/hypericons.css", css);

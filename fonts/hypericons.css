@@ -1,39 +1,39 @@
 @font-face {
-    font-family: "Hypericons";
-    src: url('./Hypericons.eot?t=1671597863517');
-    /* IE9*/
-    src: url('Hypericons.eot?t=1671597863517#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url("Hypericons.woff2?t=1671597863517") format("woff2"),
-        url("Hypericons.woff?t=1671597863517") format("woff"),
-        url('Hypericons.ttf?t=1671597863517') format('truetype'),
-        /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-        url('Hypericons.svg?t=1671597863517#Hypericons') format('svg');
-    /* iOS 4.1- */
-}
-
-[class^="hi-"],
-[class*=" hi-"] {
-    position: relative;
-    display: inline-block;
-    font-family: 'Hypericons' !important;
-    font-size: 16px;
-    width: 1em;
-    height: 1em;
-    font-style: normal;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-[class^="hi-"]:before,
-[class*=" hi-"]:before,
-[class^="hi-"]:after,
-[class*=" hi-"]:after {
-    width: 1em;
-    height: 1em;
-    position: absolute;
-}
-
+		font-family: "Hypericons";
+		src: url('Hypericons.eot?t=1671601813555');
+		/* IE9*/
+		src: url('Hypericons.eot?t=1671601813555#iefix') format('embedded-opentype'),
+			/* IE6-IE8 */
+			url("Hypericons.woff2?t=1671601813555") format("woff2"),
+			url("Hypericons.woff?t=1671601813555") format("woff"),
+			url('Hypericons.ttf?t=1671601813555') format('truetype'),
+			/* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+			url('Hypericons.svg?t=1671601813555#Hypericons') format('svg');
+		/* iOS 4.1- */
+	}
+	
+	[class^="hi-"],
+	[class*=" hi-"] {
+		position: relative;
+		display: inline-block;
+		font-family: 'Hypericons' !important;
+		font-size: 16px;
+		width: 1em;
+		height: 1em;
+		font-style: normal;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	
+	[class^="hi-"]:before,
+	[class*=" hi-"]:before,
+	[class^="hi-"]:after,
+	[class*=" hi-"]:after {
+		width: 1em;
+		height: 1em;
+		position: absolute;
+	}
+	
 [class^="hi-"]:before,
 [class*=" hi-"]:before {
     color: var(--hi-accent, inherit);
@@ -43,51 +43,19 @@
 [class*=" hi-"]:after {
     color: var(--hi-base, inherit);
 }
-
-.hi-eraser:after {
-    content: "\ea01";
-}
-
-.hi-eraser:before {
-    content: "\ea02";
-}
-
-.hi-eyedropper:after {
-    content: "\ea03";
-}
-
-.hi-eyedropper:before {
-    content: "\ea04";
-}
-
-.hi-fill:after {
-    content: "\ea05";
-}
-
-.hi-fill:before {
-    content: "\ea06";
-}
-
-.hi-line:after {
-    content: "\ea07";
-}
-
-.hi-line:before {
-    content: "\ea08";
-}
-
-.hi-pencil:after {
-    content: "\ea09";
-}
-
-.hi-pencil:before {
-    content: "\ea0a";
-}
-
-.hi-spray:after {
-    content: "\ea0b";
-}
-
-.hi-spray:before {
-    content: "\ea0c";
-}
+	.hi-circle-fill:after {content: "\ea01";}
+	.hi-circle-line:after {content: "\ea02";}
+	.hi-eraser:after {content: "\ea03";}
+		.hi-eraser:before {content: "\ea04";}
+	.hi-eyedropper:after {content: "\ea05";}
+		.hi-eyedropper:before {content: "\ea06";}
+	.hi-fill:after {content: "\ea07";}
+		.hi-fill:before {content: "\ea08";}
+	.hi-line:after {content: "\ea09";}
+		.hi-line:before {content: "\ea0a";}
+	.hi-pencil:after {content: "\ea0b";}
+		.hi-pencil:before {content: "\ea0c";}
+	.hi-spray:after {content: "\ea0d";}
+		.hi-spray:before {content: "\ea0e";}
+	.hi-square-fill:after {content: "\ea0f";}
+	.hi-square-line:after {content: "\ea10";}
