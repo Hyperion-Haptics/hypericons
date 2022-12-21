@@ -37,7 +37,7 @@ i {
     font-size: 24px !important;
     position: relative;
     color: var(--base);
-    --hypericon-accent-color: var(--accent);
+    --hi-accent: var(--accent);
 }
 
 header {

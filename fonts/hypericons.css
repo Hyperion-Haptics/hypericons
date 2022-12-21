@@ -36,7 +36,12 @@
 
 [class^="hi-"]:before,
 [class*=" hi-"]:before {
-    color: var(--hypericon-accent-color);
+    color: var(--hi-accent, inherit);
+}
+
+[class^="hi-"]:after,
+[class*=" hi-"]:after {
+    color: var(--hi-base, inherit);
 }
 
 .hi-eraser:after {

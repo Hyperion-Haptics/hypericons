@@ -176,10 +176,15 @@ setTimeout(() => {
 		position: absolute;
 	}
 	
-	[class^="hi-"]:before,
-	[class*=" hi-"]:before {
-		color: var(--hypericon-accent-color);
-	}`;
+[class^="hi-"]:before,
+[class*=" hi-"]:before {
+    color: var(--hi-accent, inherit);
+}
+
+[class^="hi-"]:after,
+[class*=" hi-"]:after {
+    color: var(--hi-base, inherit);
+}`;
 
 	for (const [key, value] of Object.entries(manifest.icons)) {
 		css += `
