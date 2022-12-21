@@ -38,23 +38,28 @@
       "base": "\\ea0b",
       "accent": "\\ea0c"
     },
-    "pencil": {
-      "class": "hi-pencil",
+    "move": {
+      "class": "hi-move",
       "base": "\\ea0d",
       "accent": "\\ea0e"
     },
-    "spray": {
-      "class": "hi-spray",
+    "pencil": {
+      "class": "hi-pencil",
       "base": "\\ea0f",
       "accent": "\\ea10"
     },
+    "spray": {
+      "class": "hi-spray",
+      "base": "\\ea11",
+      "accent": "\\ea12"
+    },
     "square-fill": {
       "class": "hi-square-fill",
-      "base": "\\ea11"
+      "base": "\\ea13"
     },
     "square-line": {
       "class": "hi-square-line",
-      "base": "\\ea12"
+      "base": "\\ea14"
     }
   }
 }
