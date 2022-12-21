@@ -1,14 +1,14 @@
 @font-face {
 		font-family: "Hypericons";
-		src: url('Hypericons.eot?t=1671601813555');
+		src: url('Hypericons.eot?t=1671602127063');
 		/* IE9*/
-		src: url('Hypericons.eot?t=1671601813555#iefix') format('embedded-opentype'),
+		src: url('Hypericons.eot?t=1671602127063#iefix') format('embedded-opentype'),
 			/* IE6-IE8 */
-			url("Hypericons.woff2?t=1671601813555") format("woff2"),
-			url("Hypericons.woff?t=1671601813555") format("woff"),
-			url('Hypericons.ttf?t=1671601813555') format('truetype'),
+			url("Hypericons.woff2?t=1671602127063") format("woff2"),
+			url("Hypericons.woff?t=1671602127063") format("woff"),
+			url('Hypericons.ttf?t=1671602127063') format('truetype'),
 			/* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-			url('Hypericons.svg?t=1671601813555#Hypericons') format('svg');
+			url('Hypericons.svg?t=1671602127063#Hypericons') format('svg');
 		/* iOS 4.1- */
 	}
 	
@@ -45,17 +45,19 @@
 }
 	.hi-circle-fill:after {content: "\ea01";}
 	.hi-circle-line:after {content: "\ea02";}
-	.hi-eraser:after {content: "\ea03";}
-		.hi-eraser:before {content: "\ea04";}
-	.hi-eyedropper:after {content: "\ea05";}
-		.hi-eyedropper:before {content: "\ea06";}
-	.hi-fill:after {content: "\ea07";}
-		.hi-fill:before {content: "\ea08";}
-	.hi-line:after {content: "\ea09";}
-		.hi-line:before {content: "\ea0a";}
-	.hi-pencil:after {content: "\ea0b";}
-		.hi-pencil:before {content: "\ea0c";}
-	.hi-spray:after {content: "\ea0d";}
-		.hi-spray:before {content: "\ea0e";}
-	.hi-square-fill:after {content: "\ea0f";}
-	.hi-square-line:after {content: "\ea10";}
+	.hi-circle-small-fill:after {content: "\ea03";}
+	.hi-circle-small-line:after {content: "\ea04";}
+	.hi-eraser:after {content: "\ea05";}
+		.hi-eraser:before {content: "\ea06";}
+	.hi-eyedropper:after {content: "\ea07";}
+		.hi-eyedropper:before {content: "\ea08";}
+	.hi-fill:after {content: "\ea09";}
+		.hi-fill:before {content: "\ea0a";}
+	.hi-line:after {content: "\ea0b";}
+		.hi-line:before {content: "\ea0c";}
+	.hi-pencil:after {content: "\ea0d";}
+		.hi-pencil:before {content: "\ea0e";}
+	.hi-spray:after {content: "\ea0f";}
+		.hi-spray:before {content: "\ea10";}
+	.hi-square-fill:after {content: "\ea11";}
+	.hi-square-line:after {content: "\ea12";}

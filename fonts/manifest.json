@@ -10,43 +10,51 @@
       "class": "hi-circle-line",
       "base": "\\ea02"
     },
+    "circle-small-fill": {
+      "class": "hi-circle-small-fill",
+      "base": "\\ea03"
+    },
+    "circle-small-line": {
+      "class": "hi-circle-small-line",
+      "base": "\\ea04"
+    },
     "eraser": {
       "class": "hi-eraser",
-      "base": "\\ea03",
-      "accent": "\\ea04"
-    },
-    "eyedropper": {
-      "class": "hi-eyedropper",
       "base": "\\ea05",
       "accent": "\\ea06"
     },
-    "fill": {
-      "class": "hi-fill",
+    "eyedropper": {
+      "class": "hi-eyedropper",
       "base": "\\ea07",
       "accent": "\\ea08"
     },
-    "line": {
-      "class": "hi-line",
+    "fill": {
+      "class": "hi-fill",
       "base": "\\ea09",
       "accent": "\\ea0a"
     },
-    "pencil": {
-      "class": "hi-pencil",
+    "line": {
+      "class": "hi-line",
       "base": "\\ea0b",
       "accent": "\\ea0c"
     },
-    "spray": {
-      "class": "hi-spray",
+    "pencil": {
+      "class": "hi-pencil",
       "base": "\\ea0d",
       "accent": "\\ea0e"
     },
+    "spray": {
+      "class": "hi-spray",
+      "base": "\\ea0f",
+      "accent": "\\ea10"
+    },
     "square-fill": {
       "class": "hi-square-fill",
-      "base": "\\ea0f"
+      "base": "\\ea11"
     },
     "square-line": {
       "class": "hi-square-line",
-      "base": "\\ea10"
+      "base": "\\ea12"
     }
   }
 }
