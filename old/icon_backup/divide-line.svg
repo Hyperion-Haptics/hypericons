@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="450" height="450" viewBox="0 0 450 450">
-  <g>
-    <path d="M350,200H100a25,25,0,0,0,0,50H350a25,25,0,1,0,0-50Z" />
-    <circle cx="224.99997" cy="125" r="25" />
-    <circle cx="224.99997" cy="325" r="25" />
-  </g>
-</svg>
