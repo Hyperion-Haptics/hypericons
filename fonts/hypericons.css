@@ -44,13 +44,6 @@
     color: var(--hi-base, inherit);
 }
 
-[class^="hi-"]:before,
-[class*=" hi-"]:before,
-[class^="hi-"]:after,
-[class*=" hi-"]:after {
-    color: var(--hi-color, inherit);
-}
-
 .hi-eraser:after {
     content: "\ea01";
 }
