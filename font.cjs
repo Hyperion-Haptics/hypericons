@@ -142,15 +142,15 @@ setTimeout(() => {
 	var utcTimestamp = new Date().getTime();
 	let css = `@font-face {
 		font-family: "Hypericons";
-		src: url('hypericons.eot?t=${utcTimestamp}');
+		src: url('Hypericons.eot?t=${utcTimestamp}');
 		/* IE9*/
-		src: url('hypericons.eot?t=${utcTimestamp}#iefix') format('embedded-opentype'),
+		src: url('Hypericons.eot?t=${utcTimestamp}#iefix') format('embedded-opentype'),
 			/* IE6-IE8 */
-			url("hypericons.woff2?t=${utcTimestamp}") format("woff2"),
-			url("hypericons.woff?t=${utcTimestamp}") format("woff"),
-			url('hypericons.ttf?t=${utcTimestamp}') format('truetype'),
+			url("Hypericons.woff2?t=${utcTimestamp}") format("woff2"),
+			url("Hypericons.woff?t=${utcTimestamp}") format("woff"),
+			url('Hypericons.ttf?t=${utcTimestamp}') format('truetype'),
 			/* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-			url('hypericons.svg?t=${utcTimestamp}#Hypericons') format('svg');
+			url('Hypericons.svg?t=${utcTimestamp}#Hypericons') format('svg');
 		/* iOS 4.1- */
 	}
 	
