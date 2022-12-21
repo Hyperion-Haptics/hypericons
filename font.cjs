@@ -184,6 +184,13 @@ setTimeout(() => {
 [class^="hi-"]:after,
 [class*=" hi-"]:after {
     color: var(--hi-base, inherit);
+}
+
+[class^="hi-"]:before,
+[class*=" hi-"]:before,
+[class^="hi-"]:after,
+[class*=" hi-"]:after {
+    color: var(--hi-color, inherit);
 }`;
 
 	for (const [key, value] of Object.entries(manifest.icons)) {
