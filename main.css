@@ -1,0 +1,70 @@
+:root {
+    --base: #162A48;
+    --accent: #868a9c;
+    --bgAccent: #868a9c54;
+}
+
+body {
+    margin: 0;
+}
+
+.icon {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 120px;
+    height: 100px;
+    margin-left: 4px;
+    margin-right: 4px;
+    transition: 0.1s background, 0.3s color, 0.3s fill;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    color: #A3ADBA;
+    gap: 8px;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+i {
+    font-size: 24px !important;
+    position: relative;
+    color: var(--base);
+    --hypericon-accent-color: var(--accent);
+}
+
+header {
+    z-index: 999999999;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: #A3ADBA;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    background: var(--bgAccent);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+input {
+    padding: 10px;
+}
+
+#icons {
+    padding-top: 75px;
+}
+
+.search {
+    flex-grow: 1;
+}

@@ -1,10 +1,11 @@
-@font-face {font-family: "Hypericons";
-  src: url('Hypericons.eot?t=1671233531743'); /* IE9*/
-  src: url('Hypericons.eot?t=1671233531743#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("Hypericons.woff2?t=1671233531743") format("woff2"),
-  url("Hypericons.woff?t=1671233531743") format("woff"),
-  url('Hypericons.ttf?t=1671233531743') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('Hypericons.svg?t=1671233531743#Hypericons') format('svg'); /* iOS 4.1- */
+@font-face {
+  font-family: "Hypericons";
+  src: url('Hypericons.eot?t=1671245669750'); /* IE9*/
+  src: url('Hypericons.eot?t=1671245669750#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("Hypericons.woff2?t=1671245669750") format("woff2"),
+  url("Hypericons.woff?t=1671245669750") format("woff"),
+  url('Hypericons.ttf?t=1671245669750') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('Hypericons.svg?t=1671245669750#Hypericons') format('svg'); /* iOS 4.1- */
 }
 
 [class^="hi-"], [class*=" hi-"] {
@@ -15,7 +16,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-:global {
+
 .hi-account-fill:before { content: "\ea01"; }
 .hi-account-line:before { content: "\ea02"; }
 .hi-add-selection-fill:before { content: "\ea03"; }
@@ -177,5 +178,3 @@
 .hi-x-small-line:before { content: "\ea9f"; }
 .hi-zoom-fill:before { content: "\eaa0"; }
 .hi-zoom-line:before { content: "\eaa1"; }
-
-}

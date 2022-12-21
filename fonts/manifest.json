@@ -1,0 +1,36 @@
+{
+  "fontName": "Hypericons",
+  "prefix": "hi-",
+  "icons": {
+    "eraser": {
+      "class": "hi-eraser",
+      "base": "\\ea01",
+      "accent": "\\ea02"
+    },
+    "eyedropper": {
+      "class": "hi-eyedropper",
+      "base": "\\ea03",
+      "accent": "\\ea04"
+    },
+    "fill": {
+      "class": "hi-fill",
+      "base": "\\ea05",
+      "accent": "\\ea06"
+    },
+    "line": {
+      "class": "hi-line",
+      "base": "\\ea07",
+      "accent": "\\ea08"
+    },
+    "pencil": {
+      "class": "hi-pencil",
+      "base": "\\ea09",
+      "accent": "\\ea0a"
+    },
+    "spray": {
+      "class": "hi-spray",
+      "base": "\\ea0b",
+      "accent": "\\ea0c"
+    }
+  }
+}

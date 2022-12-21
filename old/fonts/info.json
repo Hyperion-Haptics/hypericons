@@ -1,0 +1,968 @@
+{
+  "account-fill": {
+    "encodedCode": "\\ea01",
+    "prefix": "hi",
+    "className": "hi-account-fill",
+    "unicode": "&#59905;"
+  },
+  "account-line": {
+    "encodedCode": "\\ea02",
+    "prefix": "hi",
+    "className": "hi-account-line",
+    "unicode": "&#59906;"
+  },
+  "add-selection-fill": {
+    "encodedCode": "\\ea03",
+    "prefix": "hi",
+    "className": "hi-add-selection-fill",
+    "unicode": "&#59907;"
+  },
+  "add-selection-line": {
+    "encodedCode": "\\ea04",
+    "prefix": "hi",
+    "className": "hi-add-selection-line",
+    "unicode": "&#59908;"
+  },
+  "alert-fill": {
+    "encodedCode": "\\ea05",
+    "prefix": "hi",
+    "className": "hi-alert-fill",
+    "unicode": "&#59909;"
+  },
+  "align-bottom-line": {
+    "encodedCode": "\\ea06",
+    "prefix": "hi",
+    "className": "hi-align-bottom-line",
+    "unicode": "&#59910;"
+  },
+  "align-center-line": {
+    "encodedCode": "\\ea07",
+    "prefix": "hi",
+    "className": "hi-align-center-line",
+    "unicode": "&#59911;"
+  },
+  "align-left-line": {
+    "encodedCode": "\\ea08",
+    "prefix": "hi",
+    "className": "hi-align-left-line",
+    "unicode": "&#59912;"
+  },
+  "align-middle-line": {
+    "encodedCode": "\\ea09",
+    "prefix": "hi",
+    "className": "hi-align-middle-line",
+    "unicode": "&#59913;"
+  },
+  "align-right-line": {
+    "encodedCode": "\\ea0a",
+    "prefix": "hi",
+    "className": "hi-align-right-line",
+    "unicode": "&#59914;"
+  },
+  "align-top-line": {
+    "encodedCode": "\\ea0b",
+    "prefix": "hi",
+    "className": "hi-align-top-line",
+    "unicode": "&#59915;"
+  },
+  "alpha-line": {
+    "encodedCode": "\\ea0c",
+    "prefix": "hi",
+    "className": "hi-alpha-line",
+    "unicode": "&#59916;"
+  },
+  "backspace-fill": {
+    "encodedCode": "\\ea0d",
+    "prefix": "hi",
+    "className": "hi-backspace-fill",
+    "unicode": "&#59917;"
+  },
+  "backspace-line": {
+    "encodedCode": "\\ea0e",
+    "prefix": "hi",
+    "className": "hi-backspace-line",
+    "unicode": "&#59918;"
+  },
+  "blending-fill": {
+    "encodedCode": "\\ea0f",
+    "prefix": "hi",
+    "className": "hi-blending-fill",
+    "unicode": "&#59919;"
+  },
+  "blending-line": {
+    "encodedCode": "\\ea10",
+    "prefix": "hi",
+    "className": "hi-blending-line",
+    "unicode": "&#59920;"
+  },
+  "check-line": {
+    "encodedCode": "\\ea11",
+    "prefix": "hi",
+    "className": "hi-check-line",
+    "unicode": "&#59921;"
+  },
+  "circle-fill": {
+    "encodedCode": "\\ea12",
+    "prefix": "hi",
+    "className": "hi-circle-fill",
+    "unicode": "&#59922;"
+  },
+  "circle-line": {
+    "encodedCode": "\\ea13",
+    "prefix": "hi",
+    "className": "hi-circle-line",
+    "unicode": "&#59923;"
+  },
+  "circle-marquee-line": {
+    "encodedCode": "\\ea14",
+    "prefix": "hi",
+    "className": "hi-circle-marquee-line",
+    "unicode": "&#59924;"
+  },
+  "circle-small-fill": {
+    "encodedCode": "\\ea15",
+    "prefix": "hi",
+    "className": "hi-circle-small-fill",
+    "unicode": "&#59925;"
+  },
+  "circle-small-line": {
+    "encodedCode": "\\ea16",
+    "prefix": "hi",
+    "className": "hi-circle-small-line",
+    "unicode": "&#59926;"
+  },
+  "clock-fill": {
+    "encodedCode": "\\ea17",
+    "prefix": "hi",
+    "className": "hi-clock-fill",
+    "unicode": "&#59927;"
+  },
+  "clock-line": {
+    "encodedCode": "\\ea18",
+    "prefix": "hi",
+    "className": "hi-clock-line",
+    "unicode": "&#59928;"
+  },
+  "cloud-fill": {
+    "encodedCode": "\\ea19",
+    "prefix": "hi",
+    "className": "hi-cloud-fill",
+    "unicode": "&#59929;"
+  },
+  "cloud-line": {
+    "encodedCode": "\\ea1a",
+    "prefix": "hi",
+    "className": "hi-cloud-line",
+    "unicode": "&#59930;"
+  },
+  "copy-fill": {
+    "encodedCode": "\\ea1b",
+    "prefix": "hi",
+    "className": "hi-copy-fill",
+    "unicode": "&#59931;"
+  },
+  "copy-line": {
+    "encodedCode": "\\ea1c",
+    "prefix": "hi",
+    "className": "hi-copy-line",
+    "unicode": "&#59932;"
+  },
+  "cursor-1-fill": {
+    "encodedCode": "\\ea1d",
+    "prefix": "hi",
+    "className": "hi-cursor-1-fill",
+    "unicode": "&#59933;"
+  },
+  "cursor-1-line": {
+    "encodedCode": "\\ea1e",
+    "prefix": "hi",
+    "className": "hi-cursor-1-line",
+    "unicode": "&#59934;"
+  },
+  "cursor-2-fill": {
+    "encodedCode": "\\ea1f",
+    "prefix": "hi",
+    "className": "hi-cursor-2-fill",
+    "unicode": "&#59935;"
+  },
+  "cursor-2-line": {
+    "encodedCode": "\\ea20",
+    "prefix": "hi",
+    "className": "hi-cursor-2-line",
+    "unicode": "&#59936;"
+  },
+  "curve-line": {
+    "encodedCode": "\\ea21",
+    "prefix": "hi",
+    "className": "hi-curve-line",
+    "unicode": "&#59937;"
+  },
+  "divide-line": {
+    "encodedCode": "\\ea22",
+    "prefix": "hi",
+    "className": "hi-divide-line",
+    "unicode": "&#59938;"
+  },
+  "down-arrow-large-line": {
+    "encodedCode": "\\ea23",
+    "prefix": "hi",
+    "className": "hi-down-arrow-large-line",
+    "unicode": "&#59939;"
+  },
+  "down-arrow-small-line": {
+    "encodedCode": "\\ea24",
+    "prefix": "hi",
+    "className": "hi-down-arrow-small-line",
+    "unicode": "&#59940;"
+  },
+  "duplicate-fill": {
+    "encodedCode": "\\ea25",
+    "prefix": "hi",
+    "className": "hi-duplicate-fill",
+    "unicode": "&#59941;"
+  },
+  "duplicate-line": {
+    "encodedCode": "\\ea26",
+    "prefix": "hi",
+    "className": "hi-duplicate-line",
+    "unicode": "&#59942;"
+  },
+  "enter-line": {
+    "encodedCode": "\\ea27",
+    "prefix": "hi",
+    "className": "hi-enter-line",
+    "unicode": "&#59943;"
+  },
+  "eraser-fill": {
+    "encodedCode": "\\ea28",
+    "prefix": "hi",
+    "className": "hi-eraser-fill",
+    "unicode": "&#59944;"
+  },
+  "eraser-line": {
+    "encodedCode": "\\ea29",
+    "prefix": "hi",
+    "className": "hi-eraser-line",
+    "unicode": "&#59945;"
+  },
+  "exit-line": {
+    "encodedCode": "\\ea2a",
+    "prefix": "hi",
+    "className": "hi-exit-line",
+    "unicode": "&#59946;"
+  },
+  "experimental-fill": {
+    "encodedCode": "\\ea2b",
+    "prefix": "hi",
+    "className": "hi-experimental-fill",
+    "unicode": "&#59947;"
+  },
+  "experimental-line": {
+    "encodedCode": "\\ea2c",
+    "prefix": "hi",
+    "className": "hi-experimental-line",
+    "unicode": "&#59948;"
+  },
+  "export-line": {
+    "encodedCode": "\\ea2d",
+    "prefix": "hi",
+    "className": "hi-export-line",
+    "unicode": "&#59949;"
+  },
+  "eye-crossed-line": {
+    "encodedCode": "\\ea2e",
+    "prefix": "hi",
+    "className": "hi-eye-crossed-line",
+    "unicode": "&#59950;"
+  },
+  "eye-line": {
+    "encodedCode": "\\ea2f",
+    "prefix": "hi",
+    "className": "hi-eye-line",
+    "unicode": "&#59951;"
+  },
+  "eyedropper-fill": {
+    "encodedCode": "\\ea30",
+    "prefix": "hi",
+    "className": "hi-eyedropper-fill",
+    "unicode": "&#59952;"
+  },
+  "eyedropper-line": {
+    "encodedCode": "\\ea31",
+    "prefix": "hi",
+    "className": "hi-eyedropper-line",
+    "unicode": "&#59953;"
+  },
+  "file-fill": {
+    "encodedCode": "\\ea32",
+    "prefix": "hi",
+    "className": "hi-file-fill",
+    "unicode": "&#59954;"
+  },
+  "file-line": {
+    "encodedCode": "\\ea33",
+    "prefix": "hi",
+    "className": "hi-file-line",
+    "unicode": "&#59955;"
+  },
+  "flip-horizontal-line": {
+    "encodedCode": "\\ea34",
+    "prefix": "hi",
+    "className": "hi-flip-horizontal-line",
+    "unicode": "&#59956;"
+  },
+  "flip-vertical-line": {
+    "encodedCode": "\\ea35",
+    "prefix": "hi",
+    "className": "hi-flip-vertical-line",
+    "unicode": "&#59957;"
+  },
+  "folder-add-fill": {
+    "encodedCode": "\\ea36",
+    "prefix": "hi",
+    "className": "hi-folder-add-fill",
+    "unicode": "&#59958;"
+  },
+  "folder-add-line": {
+    "encodedCode": "\\ea37",
+    "prefix": "hi",
+    "className": "hi-folder-add-line",
+    "unicode": "&#59959;"
+  },
+  "folder-fill": {
+    "encodedCode": "\\ea38",
+    "prefix": "hi",
+    "className": "hi-folder-fill",
+    "unicode": "&#59960;"
+  },
+  "folder-line": {
+    "encodedCode": "\\ea39",
+    "prefix": "hi",
+    "className": "hi-folder-line",
+    "unicode": "&#59961;"
+  },
+  "freehand-select-line": {
+    "encodedCode": "\\ea3a",
+    "prefix": "hi",
+    "className": "hi-freehand-select-line",
+    "unicode": "&#59962;"
+  },
+  "github-logo-fill": {
+    "encodedCode": "\\ea3b",
+    "prefix": "hi",
+    "className": "hi-github-logo-fill",
+    "unicode": "&#59963;"
+  },
+  "google-logo-fill": {
+    "encodedCode": "\\ea3c",
+    "prefix": "hi",
+    "className": "hi-google-logo-fill",
+    "unicode": "&#59964;"
+  },
+  "half-star-line": {
+    "encodedCode": "\\ea3d",
+    "prefix": "hi",
+    "className": "hi-half-star-line",
+    "unicode": "&#59965;"
+  },
+  "headphones-line": {
+    "encodedCode": "\\ea3e",
+    "prefix": "hi",
+    "className": "hi-headphones-line",
+    "unicode": "&#59966;"
+  },
+  "help-fill": {
+    "encodedCode": "\\ea3f",
+    "prefix": "hi",
+    "className": "hi-help-fill",
+    "unicode": "&#59967;"
+  },
+  "help-line": {
+    "encodedCode": "\\ea40",
+    "prefix": "hi",
+    "className": "hi-help-line",
+    "unicode": "&#59968;"
+  },
+  "import-line": {
+    "encodedCode": "\\ea41",
+    "prefix": "hi",
+    "className": "hi-import-line",
+    "unicode": "&#59969;"
+  },
+  "info-fill": {
+    "encodedCode": "\\ea42",
+    "prefix": "hi",
+    "className": "hi-info-fill",
+    "unicode": "&#59970;"
+  },
+  "info-line": {
+    "encodedCode": "\\ea43",
+    "prefix": "hi",
+    "className": "hi-info-line",
+    "unicode": "&#59971;"
+  },
+  "intersect-selection-fill": {
+    "encodedCode": "\\ea44",
+    "prefix": "hi",
+    "className": "hi-intersect-selection-fill",
+    "unicode": "&#59972;"
+  },
+  "intersect-selection-line": {
+    "encodedCode": "\\ea45",
+    "prefix": "hi",
+    "className": "hi-intersect-selection-line",
+    "unicode": "&#59973;"
+  },
+  "invert-line": {
+    "encodedCode": "\\ea46",
+    "prefix": "hi",
+    "className": "hi-invert-line",
+    "unicode": "&#59974;"
+  },
+  "keyboard-line": {
+    "encodedCode": "\\ea47",
+    "prefix": "hi",
+    "className": "hi-keyboard-line",
+    "unicode": "&#59975;"
+  },
+  "lasso-line": {
+    "encodedCode": "\\ea48",
+    "prefix": "hi",
+    "className": "hi-lasso-line",
+    "unicode": "&#59976;"
+  },
+  "layer-fill": {
+    "encodedCode": "\\ea49",
+    "prefix": "hi",
+    "className": "hi-layer-fill",
+    "unicode": "&#59977;"
+  },
+  "layer-line": {
+    "encodedCode": "\\ea4a",
+    "prefix": "hi",
+    "className": "hi-layer-line",
+    "unicode": "&#59978;"
+  },
+  "left-arrow-large-line": {
+    "encodedCode": "\\ea4b",
+    "prefix": "hi",
+    "className": "hi-left-arrow-large-line",
+    "unicode": "&#59979;"
+  },
+  "left-arrow-small-line": {
+    "encodedCode": "\\ea4c",
+    "prefix": "hi",
+    "className": "hi-left-arrow-small-line",
+    "unicode": "&#59980;"
+  },
+  "lock-fill": {
+    "encodedCode": "\\ea4d",
+    "prefix": "hi",
+    "className": "hi-lock-fill",
+    "unicode": "&#59981;"
+  },
+  "lock-line": {
+    "encodedCode": "\\ea4e",
+    "prefix": "hi",
+    "className": "hi-lock-line",
+    "unicode": "&#59982;"
+  },
+  "lock-open-fill": {
+    "encodedCode": "\\ea4f",
+    "prefix": "hi",
+    "className": "hi-lock-open-fill",
+    "unicode": "&#59983;"
+  },
+  "lock-open-line": {
+    "encodedCode": "\\ea50",
+    "prefix": "hi",
+    "className": "hi-lock-open-line",
+    "unicode": "&#59984;"
+  },
+  "loop-line": {
+    "encodedCode": "\\ea51",
+    "prefix": "hi",
+    "className": "hi-loop-line",
+    "unicode": "&#59985;"
+  },
+  "magic-wand-fill": {
+    "encodedCode": "\\ea52",
+    "prefix": "hi",
+    "className": "hi-magic-wand-fill",
+    "unicode": "&#59986;"
+  },
+  "magic-wand-line": {
+    "encodedCode": "\\ea53",
+    "prefix": "hi",
+    "className": "hi-magic-wand-line",
+    "unicode": "&#59987;"
+  },
+  "marquee-line": {
+    "encodedCode": "\\ea54",
+    "prefix": "hi",
+    "className": "hi-marquee-line",
+    "unicode": "&#59988;"
+  },
+  "menu-line": {
+    "encodedCode": "\\ea55",
+    "prefix": "hi",
+    "className": "hi-menu-line",
+    "unicode": "&#59989;"
+  },
+  "merge-all-line": {
+    "encodedCode": "\\ea56",
+    "prefix": "hi",
+    "className": "hi-merge-all-line",
+    "unicode": "&#59990;"
+  },
+  "merge-down-line": {
+    "encodedCode": "\\ea57",
+    "prefix": "hi",
+    "className": "hi-merge-down-line",
+    "unicode": "&#59991;"
+  },
+  "mic-fill": {
+    "encodedCode": "\\ea58",
+    "prefix": "hi",
+    "className": "hi-mic-fill",
+    "unicode": "&#59992;"
+  },
+  "mic-line": {
+    "encodedCode": "\\ea59",
+    "prefix": "hi",
+    "className": "hi-mic-line",
+    "unicode": "&#59993;"
+  },
+  "minus-line": {
+    "encodedCode": "\\ea5a",
+    "prefix": "hi",
+    "className": "hi-minus-line",
+    "unicode": "&#59994;"
+  },
+  "move-line": {
+    "encodedCode": "\\ea5b",
+    "prefix": "hi",
+    "className": "hi-move-line",
+    "unicode": "&#59995;"
+  },
+  "paint-bucket-fill": {
+    "encodedCode": "\\ea5c",
+    "prefix": "hi",
+    "className": "hi-paint-bucket-fill",
+    "unicode": "&#59996;"
+  },
+  "paint-bucket-line": {
+    "encodedCode": "\\ea5d",
+    "prefix": "hi",
+    "className": "hi-paint-bucket-line",
+    "unicode": "&#59997;"
+  },
+  "paste-line": {
+    "encodedCode": "\\ea5e",
+    "prefix": "hi",
+    "className": "hi-paste-line",
+    "unicode": "&#59998;"
+  },
+  "path-fill": {
+    "encodedCode": "\\ea5f",
+    "prefix": "hi",
+    "className": "hi-path-fill",
+    "unicode": "&#59999;"
+  },
+  "path-line": {
+    "encodedCode": "\\ea60",
+    "prefix": "hi",
+    "className": "hi-path-line",
+    "unicode": "&#60000;"
+  },
+  "pause-fill": {
+    "encodedCode": "\\ea61",
+    "prefix": "hi",
+    "className": "hi-pause-fill",
+    "unicode": "&#60001;"
+  },
+  "pause-line": {
+    "encodedCode": "\\ea62",
+    "prefix": "hi",
+    "className": "hi-pause-line",
+    "unicode": "&#60002;"
+  },
+  "pencil-fill": {
+    "encodedCode": "\\ea63",
+    "prefix": "hi",
+    "className": "hi-pencil-fill",
+    "unicode": "&#60003;"
+  },
+  "pencil-line": {
+    "encodedCode": "\\ea64",
+    "prefix": "hi",
+    "className": "hi-pencil-line",
+    "unicode": "&#60004;"
+  },
+  "play-fill": {
+    "encodedCode": "\\ea65",
+    "prefix": "hi",
+    "className": "hi-play-fill",
+    "unicode": "&#60005;"
+  },
+  "play-line": {
+    "encodedCode": "\\ea66",
+    "prefix": "hi",
+    "className": "hi-play-line",
+    "unicode": "&#60006;"
+  },
+  "plus-large-line": {
+    "encodedCode": "\\ea67",
+    "prefix": "hi",
+    "className": "hi-plus-large-line",
+    "unicode": "&#60007;"
+  },
+  "plus-small-line": {
+    "encodedCode": "\\ea68",
+    "prefix": "hi",
+    "className": "hi-plus-small-line",
+    "unicode": "&#60008;"
+  },
+  "polygon-fill": {
+    "encodedCode": "\\ea69",
+    "prefix": "hi",
+    "className": "hi-polygon-fill",
+    "unicode": "&#60009;"
+  },
+  "polygon-lasso-line": {
+    "encodedCode": "\\ea6a",
+    "prefix": "hi",
+    "className": "hi-polygon-lasso-line",
+    "unicode": "&#60010;"
+  },
+  "polygon-line": {
+    "encodedCode": "\\ea6b",
+    "prefix": "hi",
+    "className": "hi-polygon-line",
+    "unicode": "&#60011;"
+  },
+  "record-fill": {
+    "encodedCode": "\\ea6c",
+    "prefix": "hi",
+    "className": "hi-record-fill",
+    "unicode": "&#60012;"
+  },
+  "record-line": {
+    "encodedCode": "\\ea6d",
+    "prefix": "hi",
+    "className": "hi-record-line",
+    "unicode": "&#60013;"
+  },
+  "redo-line": {
+    "encodedCode": "\\ea6e",
+    "prefix": "hi",
+    "className": "hi-redo-line",
+    "unicode": "&#60014;"
+  },
+  "replace-selection-fill": {
+    "encodedCode": "\\ea6f",
+    "prefix": "hi",
+    "className": "hi-replace-selection-fill",
+    "unicode": "&#60015;"
+  },
+  "replace-selection-line": {
+    "encodedCode": "\\ea70",
+    "prefix": "hi",
+    "className": "hi-replace-selection-line",
+    "unicode": "&#60016;"
+  },
+  "right-arrow-large-line": {
+    "encodedCode": "\\ea71",
+    "prefix": "hi",
+    "className": "hi-right-arrow-large-line",
+    "unicode": "&#60017;"
+  },
+  "right-arrow-small-line": {
+    "encodedCode": "\\ea72",
+    "prefix": "hi",
+    "className": "hi-right-arrow-small-line",
+    "unicode": "&#60018;"
+  },
+  "rotate-left-line": {
+    "encodedCode": "\\ea73",
+    "prefix": "hi",
+    "className": "hi-rotate-left-line",
+    "unicode": "&#60019;"
+  },
+  "rotate-right-line": {
+    "encodedCode": "\\ea74",
+    "prefix": "hi",
+    "className": "hi-rotate-right-line",
+    "unicode": "&#60020;"
+  },
+  "rounded-square-fill": {
+    "encodedCode": "\\ea75",
+    "prefix": "hi",
+    "className": "hi-rounded-square-fill",
+    "unicode": "&#60021;"
+  },
+  "rounded-square-line": {
+    "encodedCode": "\\ea76",
+    "prefix": "hi",
+    "className": "hi-rounded-square-line",
+    "unicode": "&#60022;"
+  },
+  "rounded-square-small-fill": {
+    "encodedCode": "\\ea77",
+    "prefix": "hi",
+    "className": "hi-rounded-square-small-fill",
+    "unicode": "&#60023;"
+  },
+  "rounded-square-small-line": {
+    "encodedCode": "\\ea78",
+    "prefix": "hi",
+    "className": "hi-rounded-square-small-line",
+    "unicode": "&#60024;"
+  },
+  "scissors-fill": {
+    "encodedCode": "\\ea79",
+    "prefix": "hi",
+    "className": "hi-scissors-fill",
+    "unicode": "&#60025;"
+  },
+  "scissors-line": {
+    "encodedCode": "\\ea7a",
+    "prefix": "hi",
+    "className": "hi-scissors-line",
+    "unicode": "&#60026;"
+  },
+  "seek-backward-fill": {
+    "encodedCode": "\\ea7b",
+    "prefix": "hi",
+    "className": "hi-seek-backward-fill",
+    "unicode": "&#60027;"
+  },
+  "seek-backward-line": {
+    "encodedCode": "\\ea7c",
+    "prefix": "hi",
+    "className": "hi-seek-backward-line",
+    "unicode": "&#60028;"
+  },
+  "seek-end-fill": {
+    "encodedCode": "\\ea7d",
+    "prefix": "hi",
+    "className": "hi-seek-end-fill",
+    "unicode": "&#60029;"
+  },
+  "seek-end-line": {
+    "encodedCode": "\\ea7e",
+    "prefix": "hi",
+    "className": "hi-seek-end-line",
+    "unicode": "&#60030;"
+  },
+  "seek-forward-fill": {
+    "encodedCode": "\\ea7f",
+    "prefix": "hi",
+    "className": "hi-seek-forward-fill",
+    "unicode": "&#60031;"
+  },
+  "seek-forward-line": {
+    "encodedCode": "\\ea80",
+    "prefix": "hi",
+    "className": "hi-seek-forward-line",
+    "unicode": "&#60032;"
+  },
+  "seek-start-fill": {
+    "encodedCode": "\\ea81",
+    "prefix": "hi",
+    "className": "hi-seek-start-fill",
+    "unicode": "&#60033;"
+  },
+  "seek-start-line": {
+    "encodedCode": "\\ea82",
+    "prefix": "hi",
+    "className": "hi-seek-start-line",
+    "unicode": "&#60034;"
+  },
+  "settings-fill": {
+    "encodedCode": "\\ea83",
+    "prefix": "hi",
+    "className": "hi-settings-fill",
+    "unicode": "&#60035;"
+  },
+  "settings-line": {
+    "encodedCode": "\\ea84",
+    "prefix": "hi",
+    "className": "hi-settings-line",
+    "unicode": "&#60036;"
+  },
+  "sparkles-line": {
+    "encodedCode": "\\ea85",
+    "prefix": "hi",
+    "className": "hi-sparkles-line",
+    "unicode": "&#60037;"
+  },
+  "spray-fill": {
+    "encodedCode": "\\ea86",
+    "prefix": "hi",
+    "className": "hi-spray-fill",
+    "unicode": "&#60038;"
+  },
+  "spray-line": {
+    "encodedCode": "\\ea87",
+    "prefix": "hi",
+    "className": "hi-spray-line",
+    "unicode": "&#60039;"
+  },
+  "square-fill": {
+    "encodedCode": "\\ea88",
+    "prefix": "hi",
+    "className": "hi-square-fill",
+    "unicode": "&#60040;"
+  },
+  "square-line": {
+    "encodedCode": "\\ea89",
+    "prefix": "hi",
+    "className": "hi-square-line",
+    "unicode": "&#60041;"
+  },
+  "square-small-fill": {
+    "encodedCode": "\\ea8a",
+    "prefix": "hi",
+    "className": "hi-square-small-fill",
+    "unicode": "&#60042;"
+  },
+  "square-small-line": {
+    "encodedCode": "\\ea8b",
+    "prefix": "hi",
+    "className": "hi-square-small-line",
+    "unicode": "&#60043;"
+  },
+  "star-fill": {
+    "encodedCode": "\\ea8c",
+    "prefix": "hi",
+    "className": "hi-star-fill",
+    "unicode": "&#60044;"
+  },
+  "star-line": {
+    "encodedCode": "\\ea8d",
+    "prefix": "hi",
+    "className": "hi-star-line",
+    "unicode": "&#60045;"
+  },
+  "stop-fill": {
+    "encodedCode": "\\ea8e",
+    "prefix": "hi",
+    "className": "hi-stop-fill",
+    "unicode": "&#60046;"
+  },
+  "stop-line": {
+    "encodedCode": "\\ea8f",
+    "prefix": "hi",
+    "className": "hi-stop-line",
+    "unicode": "&#60047;"
+  },
+  "subtract-selection-fill": {
+    "encodedCode": "\\ea90",
+    "prefix": "hi",
+    "className": "hi-subtract-selection-fill",
+    "unicode": "&#60048;"
+  },
+  "subtract-selection-line": {
+    "encodedCode": "\\ea91",
+    "prefix": "hi",
+    "className": "hi-subtract-selection-line",
+    "unicode": "&#60049;"
+  },
+  "text-cursor-line": {
+    "encodedCode": "\\ea92",
+    "prefix": "hi",
+    "className": "hi-text-cursor-line",
+    "unicode": "&#60050;"
+  },
+  "transparent-line": {
+    "encodedCode": "\\ea93",
+    "prefix": "hi",
+    "className": "hi-transparent-line",
+    "unicode": "&#60051;"
+  },
+  "trash-fill": {
+    "encodedCode": "\\ea94",
+    "prefix": "hi",
+    "className": "hi-trash-fill",
+    "unicode": "&#60052;"
+  },
+  "trash-line": {
+    "encodedCode": "\\ea95",
+    "prefix": "hi",
+    "className": "hi-trash-line",
+    "unicode": "&#60053;"
+  },
+  "twitter-logo-fill": {
+    "encodedCode": "\\ea96",
+    "prefix": "hi",
+    "className": "hi-twitter-logo-fill",
+    "unicode": "&#60054;"
+  },
+  "type-tool-line": {
+    "encodedCode": "\\ea97",
+    "prefix": "hi",
+    "className": "hi-type-tool-line",
+    "unicode": "&#60055;"
+  },
+  "ui-line": {
+    "encodedCode": "\\ea98",
+    "prefix": "hi",
+    "className": "hi-ui-line",
+    "unicode": "&#60056;"
+  },
+  "undo-line": {
+    "encodedCode": "\\ea99",
+    "prefix": "hi",
+    "className": "hi-undo-line",
+    "unicode": "&#60057;"
+  },
+  "up-arrow-large-line": {
+    "encodedCode": "\\ea9a",
+    "prefix": "hi",
+    "className": "hi-up-arrow-large-line",
+    "unicode": "&#60058;"
+  },
+  "up-arrow-small-line": {
+    "encodedCode": "\\ea9b",
+    "prefix": "hi",
+    "className": "hi-up-arrow-small-line",
+    "unicode": "&#60059;"
+  },
+  "warn-fill": {
+    "encodedCode": "\\ea9c",
+    "prefix": "hi",
+    "className": "hi-warn-fill",
+    "unicode": "&#60060;"
+  },
+  "warn-line": {
+    "encodedCode": "\\ea9d",
+    "prefix": "hi",
+    "className": "hi-warn-line",
+    "unicode": "&#60061;"
+  },
+  "x-large-line": {
+    "encodedCode": "\\ea9e",
+    "prefix": "hi",
+    "className": "hi-x-large-line",
+    "unicode": "&#60062;"
+  },
+  "x-small-line": {
+    "encodedCode": "\\ea9f",
+    "prefix": "hi",
+    "className": "hi-x-small-line",
+    "unicode": "&#60063;"
+  },
+  "zoom-fill": {
+    "encodedCode": "\\eaa0",
+    "prefix": "hi",
+    "className": "hi-zoom-fill",
+    "unicode": "&#60064;"
+  },
+  "zoom-line": {
+    "encodedCode": "\\eaa1",
+    "prefix": "hi",
+    "className": "hi-zoom-line",
+    "unicode": "&#60065;"
+  }
+}
