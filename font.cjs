@@ -182,7 +182,7 @@ setTimeout(() => {
 		position: relative;
 		display: inline-block;
 		font-family: 'Hypericons' !important;
-		font-size: 16px;
+		font-size: 24px;
 		width: 1em;
 		height: 1em;
 		font-style: normal;
@@ -197,6 +197,7 @@ setTimeout(() => {
 		width: 1em;
 		height: 1em;
 		position: absolute;
+		left: 0;
 	}
 	
 [class^="hi-"]:before,
