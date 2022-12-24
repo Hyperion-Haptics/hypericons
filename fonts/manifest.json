@@ -92,33 +92,47 @@
       "base": "\\ea20",
       "accent": "\\ea21"
     },
-    "replace-selection": {
-      "class": "hi-replace-selection",
+    "redo": {
+      "class": "hi-redo",
       "base": "\\ea22",
       "accent": "\\ea23"
     },
-    "spray": {
-      "class": "hi-spray",
+    "replace-selection": {
+      "class": "hi-replace-selection",
       "base": "\\ea24",
       "accent": "\\ea25"
     },
+    "spray": {
+      "class": "hi-spray",
+      "base": "\\ea26",
+      "accent": "\\ea27"
+    },
     "square-fill": {
       "class": "hi-square-fill",
-      "base": "\\ea26"
+      "base": "\\ea28"
     },
     "square-line": {
       "class": "hi-square-line",
-      "base": "\\ea27"
+      "base": "\\ea29"
     },
     "subtract-selection": {
       "class": "hi-subtract-selection",
-      "base": "\\ea28",
-      "accent": "\\ea29"
+      "base": "\\ea2a",
+      "accent": "\\ea2b"
     },
     "trash": {
       "class": "hi-trash",
-      "base": "\\ea2a",
-      "accent": "\\ea2b"
+      "base": "\\ea2c",
+      "accent": "\\ea2d"
+    },
+    "undo": {
+      "class": "hi-undo",
+      "base": "\\ea2e",
+      "accent": "\\ea2f"
+    },
+    "x": {
+      "class": "hi-x",
+      "base": "\\ea30"
     }
   }
 }
