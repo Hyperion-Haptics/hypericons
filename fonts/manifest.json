@@ -173,9 +173,14 @@
       "base": "\\ea3e",
       "accent": "\\ea3f"
     },
+    "x-outline": {
+      "class": "hi-x-outline",
+      "base": "\\ea40",
+      "accent": "\\ea41"
+    },
     "x": {
       "class": "hi-x",
-      "base": "\\ea40"
+      "base": "\\ea42"
     }
   }
 }

@@ -1,14 +1,14 @@
 @font-face {
 		font-family: "Hypericons";
-		src: url('Hypericons.eot?t=1674288260091');
+		src: url('Hypericons.eot?t=1674289372969');
 		/* IE9*/
-		src: url('Hypericons.eot?t=1674288260091#iefix') format('embedded-opentype'),
+		src: url('Hypericons.eot?t=1674289372969#iefix') format('embedded-opentype'),
 			/* IE6-IE8 */
-			url("Hypericons.woff2?t=1674288260091") format("woff2"),
-			url("Hypericons.woff?t=1674288260091") format("woff"),
-			url('Hypericons.ttf?t=1674288260091') format('truetype'),
+			url("Hypericons.woff2?t=1674289372969") format("woff2"),
+			url("Hypericons.woff?t=1674289372969") format("woff"),
+			url('Hypericons.ttf?t=1674289372969') format('truetype'),
 			/* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-			url('Hypericons.svg?t=1674288260091#Hypericons') format('svg');
+			url('Hypericons.svg?t=1674289372969#Hypericons') format('svg');
 		/* iOS 4.1- */
 	}
 	
@@ -107,4 +107,6 @@
 		.hi-trash:before {content: "\ea3d";}
 	.hi-undo:after {content: "\ea3e";}
 		.hi-undo:before {content: "\ea3f";}
-	.hi-x:after {content: "\ea40";}
+	.hi-x-outline:after {content: "\ea40";}
+		.hi-x-outline:before {content: "\ea41";}
+	.hi-x:after {content: "\ea42";}
