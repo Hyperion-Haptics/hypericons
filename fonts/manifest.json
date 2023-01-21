@@ -45,142 +45,147 @@
       "base": "\\ea0c",
       "accent": "\\ea0d"
     },
-    "export": {
-      "class": "hi-export",
+    "exclamation-outline": {
+      "class": "hi-exclamation-outline",
       "base": "\\ea0e",
       "accent": "\\ea0f"
     },
-    "eye-crossed": {
-      "class": "hi-eye-crossed",
+    "export": {
+      "class": "hi-export",
       "base": "\\ea10",
       "accent": "\\ea11"
     },
-    "eye": {
-      "class": "hi-eye",
+    "eye-crossed": {
+      "class": "hi-eye-crossed",
       "base": "\\ea12",
       "accent": "\\ea13"
     },
-    "eyedropper": {
-      "class": "hi-eyedropper",
+    "eye": {
+      "class": "hi-eye",
       "base": "\\ea14",
       "accent": "\\ea15"
     },
-    "file": {
-      "class": "hi-file",
+    "eyedropper": {
+      "class": "hi-eyedropper",
       "base": "\\ea16",
       "accent": "\\ea17"
     },
-    "fill": {
-      "class": "hi-fill",
+    "file": {
+      "class": "hi-file",
       "base": "\\ea18",
       "accent": "\\ea19"
     },
-    "gear": {
-      "class": "hi-gear",
+    "fill": {
+      "class": "hi-fill",
       "base": "\\ea1a",
       "accent": "\\ea1b"
     },
-    "import": {
-      "class": "hi-import",
+    "gear": {
+      "class": "hi-gear",
       "base": "\\ea1c",
       "accent": "\\ea1d"
     },
-    "intersect-selection": {
-      "class": "hi-intersect-selection",
+    "import": {
+      "class": "hi-import",
       "base": "\\ea1e",
       "accent": "\\ea1f"
     },
-    "layer": {
-      "class": "hi-layer",
+    "intersect-selection": {
+      "class": "hi-intersect-selection",
       "base": "\\ea20",
       "accent": "\\ea21"
     },
-    "line": {
-      "class": "hi-line",
+    "layer": {
+      "class": "hi-layer",
       "base": "\\ea22",
       "accent": "\\ea23"
     },
-    "loading-outline": {
-      "class": "hi-loading-outline",
+    "line": {
+      "class": "hi-line",
       "base": "\\ea24",
       "accent": "\\ea25"
     },
-    "lock-open": {
-      "class": "hi-lock-open",
+    "loading-outline": {
+      "class": "hi-loading-outline",
       "base": "\\ea26",
       "accent": "\\ea27"
     },
-    "lock": {
-      "class": "hi-lock",
+    "lock-open": {
+      "class": "hi-lock-open",
       "base": "\\ea28",
       "accent": "\\ea29"
     },
-    "marquee": {
-      "class": "hi-marquee",
+    "lock": {
+      "class": "hi-lock",
       "base": "\\ea2a",
       "accent": "\\ea2b"
     },
-    "move": {
-      "class": "hi-move",
+    "marquee": {
+      "class": "hi-marquee",
       "base": "\\ea2c",
       "accent": "\\ea2d"
     },
-    "pencil": {
-      "class": "hi-pencil",
+    "move": {
+      "class": "hi-move",
       "base": "\\ea2e",
       "accent": "\\ea2f"
     },
-    "redo": {
-      "class": "hi-redo",
+    "pencil": {
+      "class": "hi-pencil",
       "base": "\\ea30",
       "accent": "\\ea31"
     },
-    "replace-selection": {
-      "class": "hi-replace-selection",
+    "redo": {
+      "class": "hi-redo",
       "base": "\\ea32",
       "accent": "\\ea33"
     },
-    "save": {
-      "class": "hi-save",
+    "replace-selection": {
+      "class": "hi-replace-selection",
       "base": "\\ea34",
       "accent": "\\ea35"
     },
-    "spray": {
-      "class": "hi-spray",
+    "save": {
+      "class": "hi-save",
       "base": "\\ea36",
       "accent": "\\ea37"
     },
+    "spray": {
+      "class": "hi-spray",
+      "base": "\\ea38",
+      "accent": "\\ea39"
+    },
     "square-fill": {
       "class": "hi-square-fill",
-      "base": "\\ea38"
+      "base": "\\ea3a"
     },
     "square-line": {
       "class": "hi-square-line",
-      "base": "\\ea39"
+      "base": "\\ea3b"
     },
     "subtract-selection": {
       "class": "hi-subtract-selection",
-      "base": "\\ea3a",
-      "accent": "\\ea3b"
-    },
-    "trash": {
-      "class": "hi-trash",
       "base": "\\ea3c",
       "accent": "\\ea3d"
     },
-    "undo": {
-      "class": "hi-undo",
+    "trash": {
+      "class": "hi-trash",
       "base": "\\ea3e",
       "accent": "\\ea3f"
     },
-    "x-outline": {
-      "class": "hi-x-outline",
+    "undo": {
+      "class": "hi-undo",
       "base": "\\ea40",
       "accent": "\\ea41"
     },
+    "x-outline": {
+      "class": "hi-x-outline",
+      "base": "\\ea42",
+      "accent": "\\ea43"
+    },
     "x": {
       "class": "hi-x",
-      "base": "\\ea42"
+      "base": "\\ea44"
     }
   }
 }
