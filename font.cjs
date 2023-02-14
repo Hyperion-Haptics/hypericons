@@ -75,8 +75,8 @@ fs.readdirSync(srcPath).forEach((file) => {
 	let paths = fileContents.match(
 		/<(path|rect|circle|ellipse|line|polyline|polygon).*?\/>/g
 	);
-	let noStylePaths = paths.filter((path) => !path.includes("style"));
-	let bluePaths = paths.filter((path) => path.includes("style"));
+	let noStylePaths = paths.filter((path) => !path.includes("fill"));
+	let bluePaths = paths.filter((path) =>  path.includes("fill"));
 	if (bluePaths.length > 0) {
 		//create a new svg file with only the blue paths by removing the nostylepaths from the original file
 		console.log(path.basename(file, ".svg"));
