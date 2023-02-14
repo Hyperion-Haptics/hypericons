@@ -1,22 +1,38 @@
 :root {
-    --base: #162A48;
+    --base: #ffffff;
     --accent: #868a9c;
     --bgAccent: #868a9c54;
 }
 
 body {
     margin: 0;
+    background: #111014;
 }
-
+#icons {
+    display: grid;
+    gap: 10px;
+    margin: 0 10px;
+    margin-bottom: 100px;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+}
+input[type="color"] {
+	opacity: 0;
+	display: block;
+	width: 32px;
+	height: 32px;
+	border: none;
+}
+.color {
+	float: left;
+    margin-right: 8px;
+    border-radius: 5px;
+    border: 1px solid #ffffff41;
+}
 .icon {
     display: inline-block;
     position: relative;
     cursor: pointer;
     border-radius: 5px;
-    width: 120px;
-    height: 100px;
-    margin-left: 4px;
-    margin-right: 4px;
     transition: 0.1s background, 0.3s color, 0.3s fill;
     display: inline-flex;
     justify-content: center;
@@ -25,7 +41,13 @@ body {
     align-items: center;
     font-family: sans-serif;
     color: #A3ADBA;
-    gap: 8px;
+    gap: 16px;
+    min-width: 100px;
+    min-height: 100px;
+    background: #ffffff07;
+    border: 1px solid #ffffff07;
+    aspect-ratio: 1 / 1;
+    text-overflow: ellipsis;
 }
 
 .hidden {
@@ -53,12 +75,15 @@ header {
     padding: 15px 25px;
     box-sizing: border-box;
     background: var(--bgAccent);
+    border-bottom: 1px solid #ffffff1f;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
 
 input {
     padding: 10px;
+    background: var(--bgAccent);
+    border: 1px solid #ffffff1f;
 }
 
 #icons {

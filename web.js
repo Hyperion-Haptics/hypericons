@@ -11,7 +11,7 @@ function search(e) {
 	console.log(e.target.value);
 	document.querySelectorAll(".icon").forEach((el) => {
 		el.classList.remove("hidden");
-		if (!el.id.includes(e.target.value)) {
+		if (!el.id.includes(e.target.value.toLowerCase())) {
 			el.classList.add("hidden");
 		}
 	});
