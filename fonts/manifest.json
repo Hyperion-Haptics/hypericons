@@ -200,72 +200,77 @@
       "class": "hi-plus-small",
       "base": "\\ea45"
     },
-    "redo": {
-      "class": "hi-redo",
+    "recenter": {
+      "class": "hi-recenter",
       "base": "\\ea46",
       "accent": "\\ea47"
     },
-    "replace-selection": {
-      "class": "hi-replace-selection",
+    "redo": {
+      "class": "hi-redo",
       "base": "\\ea48",
       "accent": "\\ea49"
     },
-    "rotate-left": {
-      "class": "hi-rotate-left",
+    "replace-selection": {
+      "class": "hi-replace-selection",
       "base": "\\ea4a",
       "accent": "\\ea4b"
     },
-    "rotate-right": {
-      "class": "hi-rotate-right",
+    "rotate-left": {
+      "class": "hi-rotate-left",
       "base": "\\ea4c",
       "accent": "\\ea4d"
     },
-    "save": {
-      "class": "hi-save",
+    "rotate-right": {
+      "class": "hi-rotate-right",
       "base": "\\ea4e",
       "accent": "\\ea4f"
     },
-    "scissors": {
-      "class": "hi-scissors",
+    "save": {
+      "class": "hi-save",
       "base": "\\ea50",
       "accent": "\\ea51"
     },
-    "spray": {
-      "class": "hi-spray",
+    "scissors": {
+      "class": "hi-scissors",
       "base": "\\ea52",
       "accent": "\\ea53"
     },
+    "spray": {
+      "class": "hi-spray",
+      "base": "\\ea54",
+      "accent": "\\ea55"
+    },
     "square-fill": {
       "class": "hi-square-fill",
-      "base": "\\ea54"
+      "base": "\\ea56"
     },
     "square-line": {
       "class": "hi-square-line",
-      "base": "\\ea55"
+      "base": "\\ea57"
     },
     "subtract-selection": {
       "class": "hi-subtract-selection",
-      "base": "\\ea56",
-      "accent": "\\ea57"
-    },
-    "trash": {
-      "class": "hi-trash",
       "base": "\\ea58",
       "accent": "\\ea59"
     },
-    "undo": {
-      "class": "hi-undo",
+    "trash": {
+      "class": "hi-trash",
       "base": "\\ea5a",
       "accent": "\\ea5b"
     },
-    "x-outline": {
-      "class": "hi-x-outline",
+    "undo": {
+      "class": "hi-undo",
       "base": "\\ea5c",
       "accent": "\\ea5d"
     },
+    "x-outline": {
+      "class": "hi-x-outline",
+      "base": "\\ea5e",
+      "accent": "\\ea5f"
+    },
     "x": {
       "class": "hi-x",
-      "base": "\\ea5e"
+      "base": "\\ea60"
     }
   }
 }
