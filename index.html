@@ -1,4 +1,5 @@
 
+
     <!DOCTYPE html>
 <html lang="en">
 
@@ -17,79 +18,151 @@
 </head>
 
 <body>
-    <header>
-        <div class="search">
-            <input oninput="search(event)" id="search" type="text" placeholder="Search for an icon">
-        </div>
-        <div class="color" style="background: var(--base)">
-            <input oninput="baseColor(event)" id="base" type="color" value="#162A48">
-        </div>
-        <div class="color" style="background: var(--accent)">
-            <input oninput="accentColor(event)" id="accent" type="color" value="#868a9c">
-        </div>
-    </header>
+<header>
+    <div class="search">
+        <input oninput="search(event)" id="search" type="text" placeholder="Search for an icon">
+    </div>
+    <div class="color" style="background: var(--base)">
+        <input oninput="baseColor(event)" id="base" type="color" value="#162A48">
+    </div>
+    <div class="color" style="background: var(--accent)">
+        <input oninput="accentColor(event)" id="accent" type="color" value="#868a9c">
+    </div>
+</header>
+<div id="main">
     <div id="icons">
 
-        <div id="add selection" onclick="copyString('hi-add-selection')" class="icon"><i class="hi-add-selection"></i><span>add-selection</span></div>
-<div id="carat down" onclick="copyString('hi-carat-down')" class="icon"><i class="hi-carat-down"></i><span>carat-down</span></div>
-<div id="carat left" onclick="copyString('hi-carat-left')" class="icon"><i class="hi-carat-left"></i><span>carat-left</span></div>
-<div id="carat right" onclick="copyString('hi-carat-right')" class="icon"><i class="hi-carat-right"></i><span>carat-right</span></div>
-<div id="carat up" onclick="copyString('hi-carat-up')" class="icon"><i class="hi-carat-up"></i><span>carat-up</span></div>
-<div id="check outline" onclick="copyString('hi-check-outline')" class="icon"><i class="hi-check-outline"></i><span>check-outline</span></div>
-<div id="check" onclick="copyString('hi-check')" class="icon"><i class="hi-check"></i><span>check</span></div>
-<div id="circle fill" onclick="copyString('hi-circle-fill')" class="icon"><i class="hi-circle-fill"></i><span>circle-fill</span></div>
-<div id="circle line" onclick="copyString('hi-circle-line')" class="icon"><i class="hi-circle-line"></i><span>circle-line</span></div>
-<div id="circle marquee" onclick="copyString('hi-circle-marquee')" class="icon"><i class="hi-circle-marquee"></i><span>circle-marquee</span></div>
-<div id="circle small-fill" onclick="copyString('hi-circle-small-fill')" class="icon"><i class="hi-circle-small-fill"></i><span>circle-small-fill</span></div>
-<div id="circle small-line" onclick="copyString('hi-circle-small-line')" class="icon"><i class="hi-circle-small-line"></i><span>circle-small-line</span></div>
-<div id="cloud" onclick="copyString('hi-cloud')" class="icon"><i class="hi-cloud"></i><span>cloud</span></div>
-<div id="copy" onclick="copyString('hi-copy')" class="icon"><i class="hi-copy"></i><span>copy</span></div>
-<div id="deselect" onclick="copyString('hi-deselect')" class="icon"><i class="hi-deselect"></i><span>deselect</span></div>
-<div id="eraser" onclick="copyString('hi-eraser')" class="icon"><i class="hi-eraser"></i><span>eraser</span></div>
-<div id="exclamation outline" onclick="copyString('hi-exclamation-outline')" class="icon"><i class="hi-exclamation-outline"></i><span>exclamation-outline</span></div>
-<div id="export" onclick="copyString('hi-export')" class="icon"><i class="hi-export"></i><span>export</span></div>
-<div id="eye crossed" onclick="copyString('hi-eye-crossed')" class="icon"><i class="hi-eye-crossed"></i><span>eye-crossed</span></div>
-<div id="eye" onclick="copyString('hi-eye')" class="icon"><i class="hi-eye"></i><span>eye</span></div>
-<div id="eyedropper" onclick="copyString('hi-eyedropper')" class="icon"><i class="hi-eyedropper"></i><span>eyedropper</span></div>
-<div id="file" onclick="copyString('hi-file')" class="icon"><i class="hi-file"></i><span>file</span></div>
-<div id="fill" onclick="copyString('hi-fill')" class="icon"><i class="hi-fill"></i><span>fill</span></div>
-<div id="flip horizontal" onclick="copyString('hi-flip-horizontal')" class="icon"><i class="hi-flip-horizontal"></i><span>flip-horizontal</span></div>
-<div id="flip vertical" onclick="copyString('hi-flip-vertical')" class="icon"><i class="hi-flip-vertical"></i><span>flip-vertical</span></div>
-<div id="folder add" onclick="copyString('hi-folder-add')" class="icon"><i class="hi-folder-add"></i><span>folder-add</span></div>
-<div id="folder minus" onclick="copyString('hi-folder-minus')" class="icon"><i class="hi-folder-minus"></i><span>folder-minus</span></div>
-<div id="folder" onclick="copyString('hi-folder')" class="icon"><i class="hi-folder"></i><span>folder</span></div>
-<div id="gear" onclick="copyString('hi-gear')" class="icon"><i class="hi-gear"></i><span>gear</span></div>
-<div id="import" onclick="copyString('hi-import')" class="icon"><i class="hi-import"></i><span>import</span></div>
-<div id="intersect selection" onclick="copyString('hi-intersect-selection')" class="icon"><i class="hi-intersect-selection"></i><span>intersect-selection</span></div>
-<div id="invert" onclick="copyString('hi-invert')" class="icon"><i class="hi-invert"></i><span>invert</span></div>
-<div id="layer" onclick="copyString('hi-layer')" class="icon"><i class="hi-layer"></i><span>layer</span></div>
-<div id="line" onclick="copyString('hi-line')" class="icon"><i class="hi-line"></i><span>line</span></div>
-<div id="loading outline" onclick="copyString('hi-loading-outline')" class="icon"><i class="hi-loading-outline"></i><span>loading-outline</span></div>
-<div id="lock open" onclick="copyString('hi-lock-open')" class="icon"><i class="hi-lock-open"></i><span>lock-open</span></div>
-<div id="lock" onclick="copyString('hi-lock')" class="icon"><i class="hi-lock"></i><span>lock</span></div>
-<div id="marquee" onclick="copyString('hi-marquee')" class="icon"><i class="hi-marquee"></i><span>marquee</span></div>
-<div id="move" onclick="copyString('hi-move')" class="icon"><i class="hi-move"></i><span>move</span></div>
-<div id="paste" onclick="copyString('hi-paste')" class="icon"><i class="hi-paste"></i><span>paste</span></div>
-<div id="pencil" onclick="copyString('hi-pencil')" class="icon"><i class="hi-pencil"></i><span>pencil</span></div>
-<div id="plus large" onclick="copyString('hi-plus-large')" class="icon"><i class="hi-plus-large"></i><span>plus-large</span></div>
-<div id="plus small" onclick="copyString('hi-plus-small')" class="icon"><i class="hi-plus-small"></i><span>plus-small</span></div>
-<div id="recenter" onclick="copyString('hi-recenter')" class="icon"><i class="hi-recenter"></i><span>recenter</span></div>
-<div id="redo" onclick="copyString('hi-redo')" class="icon"><i class="hi-redo"></i><span>redo</span></div>
-<div id="replace selection" onclick="copyString('hi-replace-selection')" class="icon"><i class="hi-replace-selection"></i><span>replace-selection</span></div>
-<div id="rotate left" onclick="copyString('hi-rotate-left')" class="icon"><i class="hi-rotate-left"></i><span>rotate-left</span></div>
-<div id="rotate right" onclick="copyString('hi-rotate-right')" class="icon"><i class="hi-rotate-right"></i><span>rotate-right</span></div>
-<div id="save" onclick="copyString('hi-save')" class="icon"><i class="hi-save"></i><span>save</span></div>
-<div id="scissors" onclick="copyString('hi-scissors')" class="icon"><i class="hi-scissors"></i><span>scissors</span></div>
-<div id="spray" onclick="copyString('hi-spray')" class="icon"><i class="hi-spray"></i><span>spray</span></div>
-<div id="square fill" onclick="copyString('hi-square-fill')" class="icon"><i class="hi-square-fill"></i><span>square-fill</span></div>
-<div id="square line" onclick="copyString('hi-square-line')" class="icon"><i class="hi-square-line"></i><span>square-line</span></div>
-<div id="subtract selection" onclick="copyString('hi-subtract-selection')" class="icon"><i class="hi-subtract-selection"></i><span>subtract-selection</span></div>
-<div id="trash" onclick="copyString('hi-trash')" class="icon"><i class="hi-trash"></i><span>trash</span></div>
-<div id="undo" onclick="copyString('hi-undo')" class="icon"><i class="hi-undo"></i><span>undo</span></div>
-<div id="x outline" onclick="copyString('hi-x-outline')" class="icon"><i class="hi-x-outline"></i><span>x-outline</span></div>
-<div id="x" onclick="copyString('hi-x')" class="icon"><i class="hi-x"></i><span>x</span></div>
+        <button id="add selection-mono" onclick="selectIcon('hi-add-selection-mono')" class="icon"><i class="hi-add-selection-mono"></i><span class='icontitle'>add-selection-mono</span></button>
+<button id="add selection" onclick="selectIcon('hi-add-selection')" class="icon"><i class="hi-add-selection"></i><span class='icontitle'>add-selection</span></button>
+<button id="carat down-mono" onclick="selectIcon('hi-carat-down-mono')" class="icon"><i class="hi-carat-down-mono"></i><span class='icontitle'>carat-down-mono</span></button>
+<button id="carat down" onclick="selectIcon('hi-carat-down')" class="icon"><i class="hi-carat-down"></i><span class='icontitle'>carat-down</span></button>
+<button id="carat left-mono" onclick="selectIcon('hi-carat-left-mono')" class="icon"><i class="hi-carat-left-mono"></i><span class='icontitle'>carat-left-mono</span></button>
+<button id="carat left" onclick="selectIcon('hi-carat-left')" class="icon"><i class="hi-carat-left"></i><span class='icontitle'>carat-left</span></button>
+<button id="carat right-mono" onclick="selectIcon('hi-carat-right-mono')" class="icon"><i class="hi-carat-right-mono"></i><span class='icontitle'>carat-right-mono</span></button>
+<button id="carat right" onclick="selectIcon('hi-carat-right')" class="icon"><i class="hi-carat-right"></i><span class='icontitle'>carat-right</span></button>
+<button id="carat up-mono" onclick="selectIcon('hi-carat-up-mono')" class="icon"><i class="hi-carat-up-mono"></i><span class='icontitle'>carat-up-mono</span></button>
+<button id="carat up" onclick="selectIcon('hi-carat-up')" class="icon"><i class="hi-carat-up"></i><span class='icontitle'>carat-up</span></button>
+<button id="check mono" onclick="selectIcon('hi-check-mono')" class="icon"><i class="hi-check-mono"></i><span class='icontitle'>check-mono</span></button>
+<button id="check outline-mono" onclick="selectIcon('hi-check-outline-mono')" class="icon"><i class="hi-check-outline-mono"></i><span class='icontitle'>check-outline-mono</span></button>
+<button id="check outline" onclick="selectIcon('hi-check-outline')" class="icon"><i class="hi-check-outline"></i><span class='icontitle'>check-outline</span></button>
+<button id="check" onclick="selectIcon('hi-check')" class="icon"><i class="hi-check"></i><span class='icontitle'>check</span></button>
+<button id="circle fill-mono" onclick="selectIcon('hi-circle-fill-mono')" class="icon"><i class="hi-circle-fill-mono"></i><span class='icontitle'>circle-fill-mono</span></button>
+<button id="circle fill" onclick="selectIcon('hi-circle-fill')" class="icon"><i class="hi-circle-fill"></i><span class='icontitle'>circle-fill</span></button>
+<button id="circle line-mono" onclick="selectIcon('hi-circle-line-mono')" class="icon"><i class="hi-circle-line-mono"></i><span class='icontitle'>circle-line-mono</span></button>
+<button id="circle line" onclick="selectIcon('hi-circle-line')" class="icon"><i class="hi-circle-line"></i><span class='icontitle'>circle-line</span></button>
+<button id="circle marquee-mono" onclick="selectIcon('hi-circle-marquee-mono')" class="icon"><i class="hi-circle-marquee-mono"></i><span class='icontitle'>circle-marquee-mono</span></button>
+<button id="circle marquee" onclick="selectIcon('hi-circle-marquee')" class="icon"><i class="hi-circle-marquee"></i><span class='icontitle'>circle-marquee</span></button>
+<button id="circle small-fill-mono" onclick="selectIcon('hi-circle-small-fill-mono')" class="icon"><i class="hi-circle-small-fill-mono"></i><span class='icontitle'>circle-small-fill-mono</span></button>
+<button id="circle small-fill" onclick="selectIcon('hi-circle-small-fill')" class="icon"><i class="hi-circle-small-fill"></i><span class='icontitle'>circle-small-fill</span></button>
+<button id="circle small-line-mono" onclick="selectIcon('hi-circle-small-line-mono')" class="icon"><i class="hi-circle-small-line-mono"></i><span class='icontitle'>circle-small-line-mono</span></button>
+<button id="circle small-line" onclick="selectIcon('hi-circle-small-line')" class="icon"><i class="hi-circle-small-line"></i><span class='icontitle'>circle-small-line</span></button>
+<button id="cloud mono" onclick="selectIcon('hi-cloud-mono')" class="icon"><i class="hi-cloud-mono"></i><span class='icontitle'>cloud-mono</span></button>
+<button id="cloud" onclick="selectIcon('hi-cloud')" class="icon"><i class="hi-cloud"></i><span class='icontitle'>cloud</span></button>
+<button id="copy mono" onclick="selectIcon('hi-copy-mono')" class="icon"><i class="hi-copy-mono"></i><span class='icontitle'>copy-mono</span></button>
+<button id="copy" onclick="selectIcon('hi-copy')" class="icon"><i class="hi-copy"></i><span class='icontitle'>copy</span></button>
+<button id="deselect mono" onclick="selectIcon('hi-deselect-mono')" class="icon"><i class="hi-deselect-mono"></i><span class='icontitle'>deselect-mono</span></button>
+<button id="deselect" onclick="selectIcon('hi-deselect')" class="icon"><i class="hi-deselect"></i><span class='icontitle'>deselect</span></button>
+<button id="eraser mono" onclick="selectIcon('hi-eraser-mono')" class="icon"><i class="hi-eraser-mono"></i><span class='icontitle'>eraser-mono</span></button>
+<button id="eraser" onclick="selectIcon('hi-eraser')" class="icon"><i class="hi-eraser"></i><span class='icontitle'>eraser</span></button>
+<button id="exclamation outline-mono" onclick="selectIcon('hi-exclamation-outline-mono')" class="icon"><i class="hi-exclamation-outline-mono"></i><span class='icontitle'>exclamation-outline-mono</span></button>
+<button id="exclamation outline" onclick="selectIcon('hi-exclamation-outline')" class="icon"><i class="hi-exclamation-outline"></i><span class='icontitle'>exclamation-outline</span></button>
+<button id="export mono" onclick="selectIcon('hi-export-mono')" class="icon"><i class="hi-export-mono"></i><span class='icontitle'>export-mono</span></button>
+<button id="export" onclick="selectIcon('hi-export')" class="icon"><i class="hi-export"></i><span class='icontitle'>export</span></button>
+<button id="eye crossed-mono" onclick="selectIcon('hi-eye-crossed-mono')" class="icon"><i class="hi-eye-crossed-mono"></i><span class='icontitle'>eye-crossed-mono</span></button>
+<button id="eye crossed" onclick="selectIcon('hi-eye-crossed')" class="icon"><i class="hi-eye-crossed"></i><span class='icontitle'>eye-crossed</span></button>
+<button id="eye mono" onclick="selectIcon('hi-eye-mono')" class="icon"><i class="hi-eye-mono"></i><span class='icontitle'>eye-mono</span></button>
+<button id="eye" onclick="selectIcon('hi-eye')" class="icon"><i class="hi-eye"></i><span class='icontitle'>eye</span></button>
+<button id="eyedropper mono" onclick="selectIcon('hi-eyedropper-mono')" class="icon"><i class="hi-eyedropper-mono"></i><span class='icontitle'>eyedropper-mono</span></button>
+<button id="eyedropper" onclick="selectIcon('hi-eyedropper')" class="icon"><i class="hi-eyedropper"></i><span class='icontitle'>eyedropper</span></button>
+<button id="file mono" onclick="selectIcon('hi-file-mono')" class="icon"><i class="hi-file-mono"></i><span class='icontitle'>file-mono</span></button>
+<button id="file" onclick="selectIcon('hi-file')" class="icon"><i class="hi-file"></i><span class='icontitle'>file</span></button>
+<button id="fill mono" onclick="selectIcon('hi-fill-mono')" class="icon"><i class="hi-fill-mono"></i><span class='icontitle'>fill-mono</span></button>
+<button id="fill" onclick="selectIcon('hi-fill')" class="icon"><i class="hi-fill"></i><span class='icontitle'>fill</span></button>
+<button id="flip horizontal-mono" onclick="selectIcon('hi-flip-horizontal-mono')" class="icon"><i class="hi-flip-horizontal-mono"></i><span class='icontitle'>flip-horizontal-mono</span></button>
+<button id="flip horizontal" onclick="selectIcon('hi-flip-horizontal')" class="icon"><i class="hi-flip-horizontal"></i><span class='icontitle'>flip-horizontal</span></button>
+<button id="flip vertical-mono" onclick="selectIcon('hi-flip-vertical-mono')" class="icon"><i class="hi-flip-vertical-mono"></i><span class='icontitle'>flip-vertical-mono</span></button>
+<button id="flip vertical" onclick="selectIcon('hi-flip-vertical')" class="icon"><i class="hi-flip-vertical"></i><span class='icontitle'>flip-vertical</span></button>
+<button id="folder add-mono" onclick="selectIcon('hi-folder-add-mono')" class="icon"><i class="hi-folder-add-mono"></i><span class='icontitle'>folder-add-mono</span></button>
+<button id="folder add" onclick="selectIcon('hi-folder-add')" class="icon"><i class="hi-folder-add"></i><span class='icontitle'>folder-add</span></button>
+<button id="folder minus-mono" onclick="selectIcon('hi-folder-minus-mono')" class="icon"><i class="hi-folder-minus-mono"></i><span class='icontitle'>folder-minus-mono</span></button>
+<button id="folder minus" onclick="selectIcon('hi-folder-minus')" class="icon"><i class="hi-folder-minus"></i><span class='icontitle'>folder-minus</span></button>
+<button id="folder mono" onclick="selectIcon('hi-folder-mono')" class="icon"><i class="hi-folder-mono"></i><span class='icontitle'>folder-mono</span></button>
+<button id="folder" onclick="selectIcon('hi-folder')" class="icon"><i class="hi-folder"></i><span class='icontitle'>folder</span></button>
+<button id="gear mono" onclick="selectIcon('hi-gear-mono')" class="icon"><i class="hi-gear-mono"></i><span class='icontitle'>gear-mono</span></button>
+<button id="gear" onclick="selectIcon('hi-gear')" class="icon"><i class="hi-gear"></i><span class='icontitle'>gear</span></button>
+<button id="import mono" onclick="selectIcon('hi-import-mono')" class="icon"><i class="hi-import-mono"></i><span class='icontitle'>import-mono</span></button>
+<button id="import" onclick="selectIcon('hi-import')" class="icon"><i class="hi-import"></i><span class='icontitle'>import</span></button>
+<button id="intersect selection-mono" onclick="selectIcon('hi-intersect-selection-mono')" class="icon"><i class="hi-intersect-selection-mono"></i><span class='icontitle'>intersect-selection-mono</span></button>
+<button id="intersect selection" onclick="selectIcon('hi-intersect-selection')" class="icon"><i class="hi-intersect-selection"></i><span class='icontitle'>intersect-selection</span></button>
+<button id="invert mono" onclick="selectIcon('hi-invert-mono')" class="icon"><i class="hi-invert-mono"></i><span class='icontitle'>invert-mono</span></button>
+<button id="invert" onclick="selectIcon('hi-invert')" class="icon"><i class="hi-invert"></i><span class='icontitle'>invert</span></button>
+<button id="layer mono" onclick="selectIcon('hi-layer-mono')" class="icon"><i class="hi-layer-mono"></i><span class='icontitle'>layer-mono</span></button>
+<button id="layer" onclick="selectIcon('hi-layer')" class="icon"><i class="hi-layer"></i><span class='icontitle'>layer</span></button>
+<button id="line mono" onclick="selectIcon('hi-line-mono')" class="icon"><i class="hi-line-mono"></i><span class='icontitle'>line-mono</span></button>
+<button id="line" onclick="selectIcon('hi-line')" class="icon"><i class="hi-line"></i><span class='icontitle'>line</span></button>
+<button id="loading outline-mono" onclick="selectIcon('hi-loading-outline-mono')" class="icon"><i class="hi-loading-outline-mono"></i><span class='icontitle'>loading-outline-mono</span></button>
+<button id="loading outline" onclick="selectIcon('hi-loading-outline')" class="icon"><i class="hi-loading-outline"></i><span class='icontitle'>loading-outline</span></button>
+<button id="lock mono" onclick="selectIcon('hi-lock-mono')" class="icon"><i class="hi-lock-mono"></i><span class='icontitle'>lock-mono</span></button>
+<button id="lock open-mono" onclick="selectIcon('hi-lock-open-mono')" class="icon"><i class="hi-lock-open-mono"></i><span class='icontitle'>lock-open-mono</span></button>
+<button id="lock open" onclick="selectIcon('hi-lock-open')" class="icon"><i class="hi-lock-open"></i><span class='icontitle'>lock-open</span></button>
+<button id="lock" onclick="selectIcon('hi-lock')" class="icon"><i class="hi-lock"></i><span class='icontitle'>lock</span></button>
+<button id="marquee mono" onclick="selectIcon('hi-marquee-mono')" class="icon"><i class="hi-marquee-mono"></i><span class='icontitle'>marquee-mono</span></button>
+<button id="marquee" onclick="selectIcon('hi-marquee')" class="icon"><i class="hi-marquee"></i><span class='icontitle'>marquee</span></button>
+<button id="move mono" onclick="selectIcon('hi-move-mono')" class="icon"><i class="hi-move-mono"></i><span class='icontitle'>move-mono</span></button>
+<button id="move" onclick="selectIcon('hi-move')" class="icon"><i class="hi-move"></i><span class='icontitle'>move</span></button>
+<button id="paste mono" onclick="selectIcon('hi-paste-mono')" class="icon"><i class="hi-paste-mono"></i><span class='icontitle'>paste-mono</span></button>
+<button id="paste" onclick="selectIcon('hi-paste')" class="icon"><i class="hi-paste"></i><span class='icontitle'>paste</span></button>
+<button id="pencil mono" onclick="selectIcon('hi-pencil-mono')" class="icon"><i class="hi-pencil-mono"></i><span class='icontitle'>pencil-mono</span></button>
+<button id="pencil" onclick="selectIcon('hi-pencil')" class="icon"><i class="hi-pencil"></i><span class='icontitle'>pencil</span></button>
+<button id="plus large-mono" onclick="selectIcon('hi-plus-large-mono')" class="icon"><i class="hi-plus-large-mono"></i><span class='icontitle'>plus-large-mono</span></button>
+<button id="plus large" onclick="selectIcon('hi-plus-large')" class="icon"><i class="hi-plus-large"></i><span class='icontitle'>plus-large</span></button>
+<button id="plus small-mono" onclick="selectIcon('hi-plus-small-mono')" class="icon"><i class="hi-plus-small-mono"></i><span class='icontitle'>plus-small-mono</span></button>
+<button id="plus small" onclick="selectIcon('hi-plus-small')" class="icon"><i class="hi-plus-small"></i><span class='icontitle'>plus-small</span></button>
+<button id="recenter mono" onclick="selectIcon('hi-recenter-mono')" class="icon"><i class="hi-recenter-mono"></i><span class='icontitle'>recenter-mono</span></button>
+<button id="recenter" onclick="selectIcon('hi-recenter')" class="icon"><i class="hi-recenter"></i><span class='icontitle'>recenter</span></button>
+<button id="redo mono" onclick="selectIcon('hi-redo-mono')" class="icon"><i class="hi-redo-mono"></i><span class='icontitle'>redo-mono</span></button>
+<button id="redo" onclick="selectIcon('hi-redo')" class="icon"><i class="hi-redo"></i><span class='icontitle'>redo</span></button>
+<button id="replace selection-mono" onclick="selectIcon('hi-replace-selection-mono')" class="icon"><i class="hi-replace-selection-mono"></i><span class='icontitle'>replace-selection-mono</span></button>
+<button id="replace selection" onclick="selectIcon('hi-replace-selection')" class="icon"><i class="hi-replace-selection"></i><span class='icontitle'>replace-selection</span></button>
+<button id="rotate left-mono" onclick="selectIcon('hi-rotate-left-mono')" class="icon"><i class="hi-rotate-left-mono"></i><span class='icontitle'>rotate-left-mono</span></button>
+<button id="rotate left" onclick="selectIcon('hi-rotate-left')" class="icon"><i class="hi-rotate-left"></i><span class='icontitle'>rotate-left</span></button>
+<button id="rotate right-mono" onclick="selectIcon('hi-rotate-right-mono')" class="icon"><i class="hi-rotate-right-mono"></i><span class='icontitle'>rotate-right-mono</span></button>
+<button id="rotate right" onclick="selectIcon('hi-rotate-right')" class="icon"><i class="hi-rotate-right"></i><span class='icontitle'>rotate-right</span></button>
+<button id="save mono" onclick="selectIcon('hi-save-mono')" class="icon"><i class="hi-save-mono"></i><span class='icontitle'>save-mono</span></button>
+<button id="save" onclick="selectIcon('hi-save')" class="icon"><i class="hi-save"></i><span class='icontitle'>save</span></button>
+<button id="scissors mono" onclick="selectIcon('hi-scissors-mono')" class="icon"><i class="hi-scissors-mono"></i><span class='icontitle'>scissors-mono</span></button>
+<button id="scissors" onclick="selectIcon('hi-scissors')" class="icon"><i class="hi-scissors"></i><span class='icontitle'>scissors</span></button>
+<button id="spray mono" onclick="selectIcon('hi-spray-mono')" class="icon"><i class="hi-spray-mono"></i><span class='icontitle'>spray-mono</span></button>
+<button id="spray" onclick="selectIcon('hi-spray')" class="icon"><i class="hi-spray"></i><span class='icontitle'>spray</span></button>
+<button id="square fill-mono" onclick="selectIcon('hi-square-fill-mono')" class="icon"><i class="hi-square-fill-mono"></i><span class='icontitle'>square-fill-mono</span></button>
+<button id="square fill" onclick="selectIcon('hi-square-fill')" class="icon"><i class="hi-square-fill"></i><span class='icontitle'>square-fill</span></button>
+<button id="square line-mono" onclick="selectIcon('hi-square-line-mono')" class="icon"><i class="hi-square-line-mono"></i><span class='icontitle'>square-line-mono</span></button>
+<button id="square line" onclick="selectIcon('hi-square-line')" class="icon"><i class="hi-square-line"></i><span class='icontitle'>square-line</span></button>
+<button id="subtract selection-mono" onclick="selectIcon('hi-subtract-selection-mono')" class="icon"><i class="hi-subtract-selection-mono"></i><span class='icontitle'>subtract-selection-mono</span></button>
+<button id="subtract selection" onclick="selectIcon('hi-subtract-selection')" class="icon"><i class="hi-subtract-selection"></i><span class='icontitle'>subtract-selection</span></button>
+<button id="trash mono" onclick="selectIcon('hi-trash-mono')" class="icon"><i class="hi-trash-mono"></i><span class='icontitle'>trash-mono</span></button>
+<button id="trash" onclick="selectIcon('hi-trash')" class="icon"><i class="hi-trash"></i><span class='icontitle'>trash</span></button>
+<button id="undo mono" onclick="selectIcon('hi-undo-mono')" class="icon"><i class="hi-undo-mono"></i><span class='icontitle'>undo-mono</span></button>
+<button id="undo" onclick="selectIcon('hi-undo')" class="icon"><i class="hi-undo"></i><span class='icontitle'>undo</span></button>
+<button id="x mono" onclick="selectIcon('hi-x-mono')" class="icon"><i class="hi-x-mono"></i><span class='icontitle'>x-mono</span></button>
+<button id="x outline-mono" onclick="selectIcon('hi-x-outline-mono')" class="icon"><i class="hi-x-outline-mono"></i><span class='icontitle'>x-outline-mono</span></button>
+<button id="x outline" onclick="selectIcon('hi-x-outline')" class="icon"><i class="hi-x-outline"></i><span class='icontitle'>x-outline</span></button>
+<button id="x" onclick="selectIcon('hi-x')" class="icon"><i class="hi-x"></i><span class='icontitle'>x</span></button>
 
 
+        </div>
+        <div id="iconmodal">
+            <button id="closemodal" onclick="closeModal()">
+                <i class="hi-x"></i>
+            </button>
+            <div id="currentIcon">
+            </div>
+            <div id="iconName"></div>
+            <div>
+                <button id="downloadBtn"><i class="hi-import-mono"></i>Download SVG</button>
+                <button id="copyBtn"><i class="hi-copy-mono"></i>Copy</button>
+            </div>
+        </div>
     </div>
 </body>
 

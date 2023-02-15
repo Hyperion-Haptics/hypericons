@@ -22,8 +22,30 @@ function baseColor(e) {
 }
 function accentColor(e) {
 	document.documentElement.style.setProperty("--accent", e.target.value);
-	document.documentElement.style.setProperty(
-		"--bgAccent",
-		e.target.value + "54"
-	);
+}
+
+function selectIcon(i) {
+	document.getElementById('currentIcon').innerHTML = `<i class="${i}"></i>`;
+	document.getElementById('iconName').innerHTML = i;
+	document.getElementById('downloadBtn').onclick = () => {
+		downloadURI('./icons/' + i.replace("hi-", "") + '.svg')
+	}
+	document.getElementById('copyBtn').onclick = () => {
+		copyString(`<i class="${i}"></i>`)
+	}
+	document.body.style.overflow = "hidden";
+	
+}
+
+function downloadURI(uri) 
+{
+    var link = document.createElement("a");
+    link.setAttribute('download', '');
+    link.href = uri;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+}
+
+function closeModal() {
 }
