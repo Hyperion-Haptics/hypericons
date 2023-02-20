@@ -202,11 +202,13 @@ setTimeout(() => {
 	
 [class^="hi-"]:before,
 [class*=" hi-"]:before {
+	opacity: var(--hi-accent-opacity, 1);
     color: var(--hi-accent, inherit);
 }
 
 [class^="hi-"]:after,
 [class*=" hi-"]:after {
+	opacity: var(--hi-base-opacity, 1);
     color: var(--hi-base, inherit);
 }`;
 

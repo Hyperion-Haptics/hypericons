@@ -1,14 +1,14 @@
 @font-face {
 		font-family: "Hypericons";
-		src: url('Hypericons.eot?t=1676932418426');
+		src: url('Hypericons.eot?t=1676932615617');
 		/* IE9*/
-		src: url('Hypericons.eot?t=1676932418426#iefix') format('embedded-opentype'),
+		src: url('Hypericons.eot?t=1676932615617#iefix') format('embedded-opentype'),
 			/* IE6-IE8 */
-			url("Hypericons.woff2?t=1676932418426") format("woff2"),
-			url("Hypericons.woff?t=1676932418426") format("woff"),
-			url('Hypericons.ttf?t=1676932418426') format('truetype'),
+			url("Hypericons.woff2?t=1676932615617") format("woff2"),
+			url("Hypericons.woff?t=1676932615617") format("woff"),
+			url('Hypericons.ttf?t=1676932615617') format('truetype'),
 			/* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-			url('Hypericons.svg?t=1676932418426#Hypericons') format('svg');
+			url('Hypericons.svg?t=1676932615617#Hypericons') format('svg');
 		/* iOS 4.1- */
 	}
 	
@@ -37,11 +37,13 @@
 	
 [class^="hi-"]:before,
 [class*=" hi-"]:before {
+	opacity: var(--hi-accent-opacity, 1);
     color: var(--hi-accent, inherit);
 }
 
 [class^="hi-"]:after,
 [class*=" hi-"]:after {
+	opacity: var(--hi-base-opacity, 1);
     color: var(--hi-base, inherit);
 }
 	.hi-account-mono:after {content: "\ea01";}
