@@ -2,507 +2,552 @@
   "fontName": "Hypericons",
   "prefix": "hi-",
   "icons": {
+    "account-mono": {
+      "class": "hi-account-mono",
+      "base": "\\ea01"
+    },
+    "account": {
+      "class": "hi-account",
+      "base": "\\ea02",
+      "accent": "\\ea03"
+    },
     "add-selection-mono": {
       "class": "hi-add-selection-mono",
-      "base": "\\ea01"
+      "base": "\\ea04"
     },
     "add-selection": {
       "class": "hi-add-selection",
-      "base": "\\ea02"
+      "base": "\\ea05"
     },
     "carat-down-mono": {
       "class": "hi-carat-down-mono",
-      "base": "\\ea03"
+      "base": "\\ea06"
     },
     "carat-down": {
       "class": "hi-carat-down",
-      "base": "\\ea04"
+      "base": "\\ea07"
     },
     "carat-left-mono": {
       "class": "hi-carat-left-mono",
-      "base": "\\ea05"
+      "base": "\\ea08"
     },
     "carat-left": {
       "class": "hi-carat-left",
-      "base": "\\ea06"
+      "base": "\\ea09"
     },
     "carat-right-mono": {
       "class": "hi-carat-right-mono",
-      "base": "\\ea07"
+      "base": "\\ea0a"
     },
     "carat-right": {
       "class": "hi-carat-right",
-      "base": "\\ea08"
+      "base": "\\ea0b"
     },
     "carat-up-mono": {
       "class": "hi-carat-up-mono",
-      "base": "\\ea09"
+      "base": "\\ea0c"
     },
     "carat-up": {
       "class": "hi-carat-up",
-      "base": "\\ea0a"
+      "base": "\\ea0d"
     },
     "check-mono": {
       "class": "hi-check-mono",
-      "base": "\\ea0b"
+      "base": "\\ea0e"
     },
     "check-outline-mono": {
       "class": "hi-check-outline-mono",
-      "base": "\\ea0c"
+      "base": "\\ea0f"
     },
     "check-outline": {
       "class": "hi-check-outline",
-      "base": "\\ea0d",
-      "accent": "\\ea0e"
+      "base": "\\ea10",
+      "accent": "\\ea11"
     },
     "check": {
       "class": "hi-check",
-      "base": "\\ea0f"
+      "base": "\\ea12"
     },
     "circle-fill-mono": {
       "class": "hi-circle-fill-mono",
-      "base": "\\ea10"
+      "base": "\\ea13"
     },
     "circle-fill": {
       "class": "hi-circle-fill",
-      "base": "\\ea11"
+      "base": "\\ea14"
     },
     "circle-line-mono": {
       "class": "hi-circle-line-mono",
-      "base": "\\ea12"
+      "base": "\\ea15"
     },
     "circle-line": {
       "class": "hi-circle-line",
-      "base": "\\ea13"
+      "base": "\\ea16"
     },
     "circle-marquee-mono": {
       "class": "hi-circle-marquee-mono",
-      "base": "\\ea14"
+      "base": "\\ea17"
     },
     "circle-marquee": {
       "class": "hi-circle-marquee",
-      "base": "\\ea15",
-      "accent": "\\ea16"
+      "base": "\\ea18",
+      "accent": "\\ea19"
     },
     "circle-small-fill-mono": {
       "class": "hi-circle-small-fill-mono",
-      "base": "\\ea17"
+      "base": "\\ea1a"
     },
     "circle-small-fill": {
       "class": "hi-circle-small-fill",
-      "base": "\\ea18"
+      "base": "\\ea1b"
     },
     "circle-small-line-mono": {
       "class": "hi-circle-small-line-mono",
-      "base": "\\ea19"
+      "base": "\\ea1c"
     },
     "circle-small-line": {
       "class": "hi-circle-small-line",
-      "base": "\\ea1a"
+      "base": "\\ea1d"
     },
     "cloud-mono": {
       "class": "hi-cloud-mono",
-      "base": "\\ea1b"
+      "base": "\\ea1e"
     },
     "cloud": {
       "class": "hi-cloud",
-      "base": "\\ea1c"
+      "base": "\\ea1f"
     },
     "copy-mono": {
       "class": "hi-copy-mono",
-      "base": "\\ea1d"
+      "base": "\\ea20"
     },
     "copy": {
       "class": "hi-copy",
-      "base": "\\ea1e",
-      "accent": "\\ea1f"
-    },
-    "deselect-mono": {
-      "class": "hi-deselect-mono",
-      "base": "\\ea20"
-    },
-    "deselect": {
-      "class": "hi-deselect",
       "base": "\\ea21",
       "accent": "\\ea22"
     },
-    "eraser-mono": {
-      "class": "hi-eraser-mono",
+    "deselect-mono": {
+      "class": "hi-deselect-mono",
       "base": "\\ea23"
     },
-    "eraser": {
-      "class": "hi-eraser",
+    "deselect": {
+      "class": "hi-deselect",
       "base": "\\ea24",
       "accent": "\\ea25"
     },
-    "exclamation-outline-mono": {
-      "class": "hi-exclamation-outline-mono",
+    "eraser-mono": {
+      "class": "hi-eraser-mono",
       "base": "\\ea26"
     },
-    "exclamation-outline": {
-      "class": "hi-exclamation-outline",
+    "eraser": {
+      "class": "hi-eraser",
       "base": "\\ea27",
       "accent": "\\ea28"
     },
-    "export-mono": {
-      "class": "hi-export-mono",
+    "exclamation-outline-mono": {
+      "class": "hi-exclamation-outline-mono",
       "base": "\\ea29"
     },
-    "export": {
-      "class": "hi-export",
+    "exclamation-outline": {
+      "class": "hi-exclamation-outline",
       "base": "\\ea2a",
       "accent": "\\ea2b"
     },
-    "eye-crossed-mono": {
-      "class": "hi-eye-crossed-mono",
+    "export-mono": {
+      "class": "hi-export-mono",
       "base": "\\ea2c"
     },
-    "eye-crossed": {
-      "class": "hi-eye-crossed",
+    "export": {
+      "class": "hi-export",
       "base": "\\ea2d",
       "accent": "\\ea2e"
     },
-    "eye-mono": {
-      "class": "hi-eye-mono",
+    "eye-crossed-mono": {
+      "class": "hi-eye-crossed-mono",
       "base": "\\ea2f"
     },
-    "eye": {
-      "class": "hi-eye",
+    "eye-crossed": {
+      "class": "hi-eye-crossed",
       "base": "\\ea30",
       "accent": "\\ea31"
     },
-    "eyedropper-mono": {
-      "class": "hi-eyedropper-mono",
+    "eye-mono": {
+      "class": "hi-eye-mono",
       "base": "\\ea32"
     },
-    "eyedropper": {
-      "class": "hi-eyedropper",
+    "eye": {
+      "class": "hi-eye",
       "base": "\\ea33",
       "accent": "\\ea34"
     },
-    "file-mono": {
-      "class": "hi-file-mono",
+    "eyedropper-mono": {
+      "class": "hi-eyedropper-mono",
       "base": "\\ea35"
     },
-    "file": {
-      "class": "hi-file",
+    "eyedropper": {
+      "class": "hi-eyedropper",
       "base": "\\ea36",
       "accent": "\\ea37"
     },
-    "fill-mono": {
-      "class": "hi-fill-mono",
+    "file-mono": {
+      "class": "hi-file-mono",
       "base": "\\ea38"
     },
-    "fill": {
-      "class": "hi-fill",
+    "file": {
+      "class": "hi-file",
       "base": "\\ea39",
       "accent": "\\ea3a"
     },
-    "flip-horizontal-mono": {
-      "class": "hi-flip-horizontal-mono",
+    "fill-mono": {
+      "class": "hi-fill-mono",
       "base": "\\ea3b"
     },
-    "flip-horizontal": {
-      "class": "hi-flip-horizontal",
+    "fill": {
+      "class": "hi-fill",
       "base": "\\ea3c",
       "accent": "\\ea3d"
     },
-    "flip-vertical-mono": {
-      "class": "hi-flip-vertical-mono",
+    "flip-horizontal-mono": {
+      "class": "hi-flip-horizontal-mono",
       "base": "\\ea3e"
     },
-    "flip-vertical": {
-      "class": "hi-flip-vertical",
+    "flip-horizontal": {
+      "class": "hi-flip-horizontal",
       "base": "\\ea3f",
       "accent": "\\ea40"
     },
+    "flip-vertical-mono": {
+      "class": "hi-flip-vertical-mono",
+      "base": "\\ea41"
+    },
+    "flip-vertical": {
+      "class": "hi-flip-vertical",
+      "base": "\\ea42",
+      "accent": "\\ea43"
+    },
     "folder-add-mono": {
       "class": "hi-folder-add-mono",
-      "base": "\\ea41"
+      "base": "\\ea44"
     },
     "folder-add": {
       "class": "hi-folder-add",
-      "base": "\\ea42"
+      "base": "\\ea45"
     },
     "folder-minus-mono": {
       "class": "hi-folder-minus-mono",
-      "base": "\\ea43"
+      "base": "\\ea46"
     },
     "folder-minus": {
       "class": "hi-folder-minus",
-      "base": "\\ea44"
+      "base": "\\ea47"
     },
     "folder-mono": {
       "class": "hi-folder-mono",
-      "base": "\\ea45"
+      "base": "\\ea48"
     },
     "folder": {
       "class": "hi-folder",
-      "base": "\\ea46"
+      "base": "\\ea49"
     },
     "gear-mono": {
       "class": "hi-gear-mono",
-      "base": "\\ea47"
+      "base": "\\ea4a"
     },
     "gear": {
       "class": "hi-gear",
-      "base": "\\ea48",
-      "accent": "\\ea49"
-    },
-    "import-mono": {
-      "class": "hi-import-mono",
-      "base": "\\ea4a"
-    },
-    "import": {
-      "class": "hi-import",
       "base": "\\ea4b",
       "accent": "\\ea4c"
     },
-    "intersect-selection-mono": {
-      "class": "hi-intersect-selection-mono",
+    "help-mono": {
+      "class": "hi-help-mono",
       "base": "\\ea4d"
     },
-    "intersect-selection": {
-      "class": "hi-intersect-selection",
+    "help": {
+      "class": "hi-help",
       "base": "\\ea4e",
       "accent": "\\ea4f"
     },
+    "import-mono": {
+      "class": "hi-import-mono",
+      "base": "\\ea50"
+    },
+    "import": {
+      "class": "hi-import",
+      "base": "\\ea51",
+      "accent": "\\ea52"
+    },
+    "info-mono": {
+      "class": "hi-info-mono",
+      "base": "\\ea53"
+    },
+    "info": {
+      "class": "hi-info",
+      "base": "\\ea54",
+      "accent": "\\ea55"
+    },
+    "intersect-selection-mono": {
+      "class": "hi-intersect-selection-mono",
+      "base": "\\ea56"
+    },
+    "intersect-selection": {
+      "class": "hi-intersect-selection",
+      "base": "\\ea57",
+      "accent": "\\ea58"
+    },
     "invert-mono": {
       "class": "hi-invert-mono",
-      "base": "\\ea50"
+      "base": "\\ea59"
     },
     "invert": {
       "class": "hi-invert",
-      "base": "\\ea51"
+      "base": "\\ea5a"
+    },
+    "keyboard-mono": {
+      "class": "hi-keyboard-mono",
+      "base": "\\ea5b"
+    },
+    "keyboard": {
+      "class": "hi-keyboard",
+      "base": "\\ea5c",
+      "accent": "\\ea5d"
     },
     "layer-mono": {
       "class": "hi-layer-mono",
-      "base": "\\ea52"
+      "base": "\\ea5e"
     },
     "layer": {
       "class": "hi-layer",
-      "base": "\\ea53",
-      "accent": "\\ea54"
-    },
-    "line-mono": {
-      "class": "hi-line-mono",
-      "base": "\\ea55"
-    },
-    "line": {
-      "class": "hi-line",
-      "base": "\\ea56",
-      "accent": "\\ea57"
-    },
-    "loading-outline-mono": {
-      "class": "hi-loading-outline-mono",
-      "base": "\\ea58"
-    },
-    "loading-outline": {
-      "class": "hi-loading-outline",
-      "base": "\\ea59",
-      "accent": "\\ea5a"
-    },
-    "lock-mono": {
-      "class": "hi-lock-mono",
-      "base": "\\ea5b"
-    },
-    "lock-open-mono": {
-      "class": "hi-lock-open-mono",
-      "base": "\\ea5c"
-    },
-    "lock-open": {
-      "class": "hi-lock-open",
-      "base": "\\ea5d",
-      "accent": "\\ea5e"
-    },
-    "lock": {
-      "class": "hi-lock",
       "base": "\\ea5f",
       "accent": "\\ea60"
     },
-    "marquee-mono": {
-      "class": "hi-marquee-mono",
+    "line-mono": {
+      "class": "hi-line-mono",
       "base": "\\ea61"
     },
-    "marquee": {
-      "class": "hi-marquee",
+    "line": {
+      "class": "hi-line",
       "base": "\\ea62",
       "accent": "\\ea63"
     },
-    "move-mono": {
-      "class": "hi-move-mono",
+    "loading-outline-mono": {
+      "class": "hi-loading-outline-mono",
       "base": "\\ea64"
     },
-    "move": {
-      "class": "hi-move",
+    "loading-outline": {
+      "class": "hi-loading-outline",
       "base": "\\ea65",
       "accent": "\\ea66"
     },
-    "paste-mono": {
-      "class": "hi-paste-mono",
+    "lock-mono": {
+      "class": "hi-lock-mono",
       "base": "\\ea67"
     },
-    "paste": {
-      "class": "hi-paste",
-      "base": "\\ea68",
-      "accent": "\\ea69"
+    "lock-open-mono": {
+      "class": "hi-lock-open-mono",
+      "base": "\\ea68"
     },
-    "pencil-mono": {
-      "class": "hi-pencil-mono",
-      "base": "\\ea6a"
+    "lock-open": {
+      "class": "hi-lock-open",
+      "base": "\\ea69",
+      "accent": "\\ea6a"
     },
-    "pencil": {
-      "class": "hi-pencil",
+    "lock": {
+      "class": "hi-lock",
       "base": "\\ea6b",
       "accent": "\\ea6c"
     },
+    "marquee-mono": {
+      "class": "hi-marquee-mono",
+      "base": "\\ea6d"
+    },
+    "marquee": {
+      "class": "hi-marquee",
+      "base": "\\ea6e",
+      "accent": "\\ea6f"
+    },
+    "move-mono": {
+      "class": "hi-move-mono",
+      "base": "\\ea70"
+    },
+    "move": {
+      "class": "hi-move",
+      "base": "\\ea71",
+      "accent": "\\ea72"
+    },
+    "paste-mono": {
+      "class": "hi-paste-mono",
+      "base": "\\ea73"
+    },
+    "paste": {
+      "class": "hi-paste",
+      "base": "\\ea74",
+      "accent": "\\ea75"
+    },
+    "pencil-mono": {
+      "class": "hi-pencil-mono",
+      "base": "\\ea76"
+    },
+    "pencil": {
+      "class": "hi-pencil",
+      "base": "\\ea77",
+      "accent": "\\ea78"
+    },
     "plus-large-mono": {
       "class": "hi-plus-large-mono",
-      "base": "\\ea6d"
+      "base": "\\ea79"
     },
     "plus-large": {
       "class": "hi-plus-large",
-      "base": "\\ea6e"
+      "base": "\\ea7a"
     },
     "plus-small-mono": {
       "class": "hi-plus-small-mono",
-      "base": "\\ea6f"
+      "base": "\\ea7b"
     },
     "plus-small": {
       "class": "hi-plus-small",
-      "base": "\\ea70"
+      "base": "\\ea7c"
     },
     "recenter-mono": {
       "class": "hi-recenter-mono",
-      "base": "\\ea71"
+      "base": "\\ea7d"
     },
     "recenter": {
       "class": "hi-recenter",
-      "base": "\\ea72",
-      "accent": "\\ea73"
-    },
-    "redo-mono": {
-      "class": "hi-redo-mono",
-      "base": "\\ea74"
-    },
-    "redo": {
-      "class": "hi-redo",
-      "base": "\\ea75",
-      "accent": "\\ea76"
-    },
-    "replace-selection-mono": {
-      "class": "hi-replace-selection-mono",
-      "base": "\\ea77"
-    },
-    "replace-selection": {
-      "class": "hi-replace-selection",
-      "base": "\\ea78",
-      "accent": "\\ea79"
-    },
-    "rotate-left-mono": {
-      "class": "hi-rotate-left-mono",
-      "base": "\\ea7a"
-    },
-    "rotate-left": {
-      "class": "hi-rotate-left",
-      "base": "\\ea7b",
-      "accent": "\\ea7c"
-    },
-    "rotate-right-mono": {
-      "class": "hi-rotate-right-mono",
-      "base": "\\ea7d"
-    },
-    "rotate-right": {
-      "class": "hi-rotate-right",
       "base": "\\ea7e",
       "accent": "\\ea7f"
     },
-    "save-mono": {
-      "class": "hi-save-mono",
+    "redo-mono": {
+      "class": "hi-redo-mono",
       "base": "\\ea80"
     },
-    "save": {
-      "class": "hi-save",
+    "redo": {
+      "class": "hi-redo",
       "base": "\\ea81",
       "accent": "\\ea82"
     },
-    "scissors-mono": {
-      "class": "hi-scissors-mono",
+    "replace-selection-mono": {
+      "class": "hi-replace-selection-mono",
       "base": "\\ea83"
     },
-    "scissors": {
-      "class": "hi-scissors",
+    "replace-selection": {
+      "class": "hi-replace-selection",
       "base": "\\ea84",
       "accent": "\\ea85"
     },
-    "spray-mono": {
-      "class": "hi-spray-mono",
+    "rotate-left-mono": {
+      "class": "hi-rotate-left-mono",
       "base": "\\ea86"
     },
-    "spray": {
-      "class": "hi-spray",
+    "rotate-left": {
+      "class": "hi-rotate-left",
       "base": "\\ea87",
       "accent": "\\ea88"
     },
+    "rotate-right-mono": {
+      "class": "hi-rotate-right-mono",
+      "base": "\\ea89"
+    },
+    "rotate-right": {
+      "class": "hi-rotate-right",
+      "base": "\\ea8a",
+      "accent": "\\ea8b"
+    },
+    "save-mono": {
+      "class": "hi-save-mono",
+      "base": "\\ea8c"
+    },
+    "save": {
+      "class": "hi-save",
+      "base": "\\ea8d",
+      "accent": "\\ea8e"
+    },
+    "scissors-mono": {
+      "class": "hi-scissors-mono",
+      "base": "\\ea8f"
+    },
+    "scissors": {
+      "class": "hi-scissors",
+      "base": "\\ea90",
+      "accent": "\\ea91"
+    },
+    "spray-mono": {
+      "class": "hi-spray-mono",
+      "base": "\\ea92"
+    },
+    "spray": {
+      "class": "hi-spray",
+      "base": "\\ea93",
+      "accent": "\\ea94"
+    },
     "square-fill-mono": {
       "class": "hi-square-fill-mono",
-      "base": "\\ea89"
+      "base": "\\ea95"
     },
     "square-fill": {
       "class": "hi-square-fill",
-      "base": "\\ea8a"
+      "base": "\\ea96"
     },
     "square-line-mono": {
       "class": "hi-square-line-mono",
-      "base": "\\ea8b"
+      "base": "\\ea97"
     },
     "square-line": {
       "class": "hi-square-line",
-      "base": "\\ea8c"
+      "base": "\\ea98"
     },
     "subtract-selection-mono": {
       "class": "hi-subtract-selection-mono",
-      "base": "\\ea8d"
+      "base": "\\ea99"
     },
     "subtract-selection": {
       "class": "hi-subtract-selection",
-      "base": "\\ea8e",
-      "accent": "\\ea8f"
+      "base": "\\ea9a",
+      "accent": "\\ea9b"
     },
     "trash-mono": {
       "class": "hi-trash-mono",
-      "base": "\\ea90"
+      "base": "\\ea9c"
     },
     "trash": {
       "class": "hi-trash",
-      "base": "\\ea91",
-      "accent": "\\ea92"
+      "base": "\\ea9d",
+      "accent": "\\ea9e"
+    },
+    "ui-mono": {
+      "class": "hi-ui-mono",
+      "base": "\\ea9f"
+    },
+    "ui": {
+      "class": "hi-ui",
+      "base": "\\eaa0",
+      "accent": "\\eaa1"
     },
     "undo-mono": {
       "class": "hi-undo-mono",
-      "base": "\\ea93"
+      "base": "\\eaa2"
     },
     "undo": {
       "class": "hi-undo",
-      "base": "\\ea94",
-      "accent": "\\ea95"
+      "base": "\\eaa3",
+      "accent": "\\eaa4"
     },
     "x-mono": {
       "class": "hi-x-mono",
-      "base": "\\ea96"
+      "base": "\\eaa5"
     },
     "x-outline-mono": {
       "class": "hi-x-outline-mono",
-      "base": "\\ea97"
+      "base": "\\eaa6"
     },
     "x-outline": {
       "class": "hi-x-outline",
-      "base": "\\ea98",
-      "accent": "\\ea99"
+      "base": "\\eaa7",
+      "accent": "\\eaa8"
     },
     "x": {
       "class": "hi-x",
-      "base": "\\ea9a"
+      "base": "\\eaa9"
     }
   }
 }

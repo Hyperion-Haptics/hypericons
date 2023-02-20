@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path d="M19.5,6.185H4.5c-1.38,0-2.5,1.12-2.5,2.5v6.63c0,1.38,1.12,2.5,2.5,2.5h15c1.38,0,2.5-1.12,2.5-2.5v-6.63c0-1.38-1.12-2.5-2.5-2.5Zm-3.7,9.13c0,.27-.23,.5-.5,.5h-6.6c-.28,0-.5-.23-.5-.5v-1.02c0-.28,.22-.5,.5-.5h6.6c.27,0,.5,.22,.5,.5v1.02Z" fill="blue"/>
+  <g>
+    <rect x="3.998" y="8.181" width="2" height="2.02" rx=".5" ry=".5"/>
+    <rect x="17.998" y="8.181" width="2" height="2.02" rx=".5" ry=".5"/>
+    <rect x="15.198" y="8.181" width="2" height="2.02" rx=".5" ry=".5"/>
+    <rect x="9.598" y="8.181" width="2" height="2.02" rx=".5" ry=".5"/>
+    <rect x="12.398" y="8.181" width="2" height="2.02" rx=".5" ry=".5"/>
+    <rect x="6.798" y="8.181" width="2" height="2.02" rx=".5" ry=".5"/>
+    <rect x="3.998" y="10.991" width="3.4" height="2.02" rx=".5" ry=".5"/>
+    <rect x="16.598" y="10.991" width="3.4" height="2.02" rx=".5" ry=".5"/>
+    <rect x="10.998" y="10.991" width="2" height="2.02" rx=".5" ry=".5"/>
+    <rect x="13.798" y="10.991" width="2" height="2.02" rx=".5" ry=".5"/>
+    <rect x="8.198" y="10.991" width="2" height="2.02" rx=".5" ry=".5"/>
+    <rect x="5.398" y="13.791" width="2" height="2.02" rx=".5" ry=".5"/>
+    <rect x="16.598" y="13.791" width="2" height="2.02" rx=".5" ry=".5"/>
+  </g>
+</svg>

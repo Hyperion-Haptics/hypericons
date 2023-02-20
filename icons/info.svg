@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <circle cx="12" cy="12" r="10" fill="blue"/>
+  <g>
+    <path d="M14,16.625h-1v-6c0-.552-.448-1-1-1h-2c-.552,0-1,.448-1,1s.448,1,1,1h1v5h-1c-.552,0-1,.448-1,1s.448,1,1,1h4c.552,0,1-.448,1-1s-.448-1-1-1Z"/>
+    <circle cx="12" cy="6.625" r="1.25"/>
+  </g>
+</svg>

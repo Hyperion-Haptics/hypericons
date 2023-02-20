@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <circle cx="12" cy="6.5" r="4.5" fill="blue"/>
+  <path d="M14.376,12.5h-4.752c-3.102,0-5.624,2.522-5.624,5.624v2.876c0,.553,.448,1,1,1h14c.553,0,1-.447,1-1v-2.876c0-3.102-2.522-5.624-5.624-5.624Z"/>
+</svg>
