@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="b" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <circle cx="5" cy="12" r="2" style="fill: blue;"/>
-  <circle cx="19" cy="12" r="2" style="fill: blue;"/>
+<svg id="b" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <circle cx="5" cy="12" r="2" fill="blue"/>
+  <circle cx="19" cy="12" r="2" fill="blue"/>
   <circle cx="12" cy="12" r="2"/>
 </svg>

@@ -511,51 +511,52 @@
     },
     "three-dots": {
       "class": "hi-three-dots",
-      "base": "\\ea9d"
+      "base": "\\ea9d",
+      "accent": "\\ea9e"
     },
     "trash-mono": {
       "class": "hi-trash-mono",
-      "base": "\\ea9e"
+      "base": "\\ea9f"
     },
     "trash": {
       "class": "hi-trash",
-      "base": "\\ea9f",
-      "accent": "\\eaa0"
+      "base": "\\eaa0",
+      "accent": "\\eaa1"
     },
     "ui-mono": {
       "class": "hi-ui-mono",
-      "base": "\\eaa1"
+      "base": "\\eaa2"
     },
     "ui": {
       "class": "hi-ui",
-      "base": "\\eaa2",
-      "accent": "\\eaa3"
+      "base": "\\eaa3",
+      "accent": "\\eaa4"
     },
     "undo-mono": {
       "class": "hi-undo-mono",
-      "base": "\\eaa4"
+      "base": "\\eaa5"
     },
     "undo": {
       "class": "hi-undo",
-      "base": "\\eaa5",
-      "accent": "\\eaa6"
+      "base": "\\eaa6",
+      "accent": "\\eaa7"
     },
     "x-mono": {
       "class": "hi-x-mono",
-      "base": "\\eaa7"
+      "base": "\\eaa8"
     },
     "x-outline-mono": {
       "class": "hi-x-outline-mono",
-      "base": "\\eaa8"
+      "base": "\\eaa9"
     },
     "x-outline": {
       "class": "hi-x-outline",
-      "base": "\\eaa9",
-      "accent": "\\eaaa"
+      "base": "\\eaaa",
+      "accent": "\\eaab"
     },
     "x": {
       "class": "hi-x",
-      "base": "\\eaab"
+      "base": "\\eaac"
     }
   }
 }

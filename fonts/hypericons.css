@@ -1,14 +1,14 @@
 @font-face {
 		font-family: "Hypericons";
-		src: url('Hypericons.eot?t=1682544061383');
+		src: url('Hypericons.eot?t=1685510850362');
 		/* IE9*/
-		src: url('Hypericons.eot?t=1682544061383#iefix') format('embedded-opentype'),
+		src: url('Hypericons.eot?t=1685510850362#iefix') format('embedded-opentype'),
 			/* IE6-IE8 */
-			url("Hypericons.woff2?t=1682544061383") format("woff2"),
-			url("Hypericons.woff?t=1682544061383") format("woff"),
-			url('Hypericons.ttf?t=1682544061383') format('truetype'),
+			url("Hypericons.woff2?t=1685510850362") format("woff2"),
+			url("Hypericons.woff?t=1685510850362") format("woff"),
+			url('Hypericons.ttf?t=1685510850362') format('truetype'),
 			/* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-			url('Hypericons.svg?t=1682544061383#Hypericons') format('svg');
+			url('Hypericons.svg?t=1685510850362#Hypericons') format('svg');
 		/* iOS 4.1- */
 	}
 	
@@ -203,17 +203,18 @@
 		.hi-subtract-selection:before {content: "\ea9b";}
 	.hi-three-dots-mono:after {content: "\ea9c";}
 	.hi-three-dots:after {content: "\ea9d";}
-	.hi-trash-mono:after {content: "\ea9e";}
-	.hi-trash:after {content: "\ea9f";}
-		.hi-trash:before {content: "\eaa0";}
-	.hi-ui-mono:after {content: "\eaa1";}
-	.hi-ui:after {content: "\eaa2";}
-		.hi-ui:before {content: "\eaa3";}
-	.hi-undo-mono:after {content: "\eaa4";}
-	.hi-undo:after {content: "\eaa5";}
-		.hi-undo:before {content: "\eaa6";}
-	.hi-x-mono:after {content: "\eaa7";}
-	.hi-x-outline-mono:after {content: "\eaa8";}
-	.hi-x-outline:after {content: "\eaa9";}
-		.hi-x-outline:before {content: "\eaaa";}
-	.hi-x:after {content: "\eaab";}
+		.hi-three-dots:before {content: "\ea9e";}
+	.hi-trash-mono:after {content: "\ea9f";}
+	.hi-trash:after {content: "\eaa0";}
+		.hi-trash:before {content: "\eaa1";}
+	.hi-ui-mono:after {content: "\eaa2";}
+	.hi-ui:after {content: "\eaa3";}
+		.hi-ui:before {content: "\eaa4";}
+	.hi-undo-mono:after {content: "\eaa5";}
+	.hi-undo:after {content: "\eaa6";}
+		.hi-undo:before {content: "\eaa7";}
+	.hi-x-mono:after {content: "\eaa8";}
+	.hi-x-outline-mono:after {content: "\eaa9";}
+	.hi-x-outline:after {content: "\eaaa";}
+		.hi-x-outline:before {content: "\eaab";}
+	.hi-x:after {content: "\eaac";}
