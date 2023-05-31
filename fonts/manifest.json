@@ -321,12 +321,12 @@
     },
     "lasso-mono": {
       "class": "hi-lasso-mono",
-      "base": "\\ea60",
-      "accent": "\\ea61"
+      "base": "\\ea60"
     },
     "lasso": {
       "class": "hi-lasso",
-      "base": "\\ea62"
+      "base": "\\ea61",
+      "accent": "\\ea62"
     },
     "layer-mono": {
       "class": "hi-layer-mono",

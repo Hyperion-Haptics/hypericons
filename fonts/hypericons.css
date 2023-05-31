@@ -1,14 +1,14 @@
 @font-face {
 		font-family: "Hypericons";
-		src: url('Hypericons.eot?t=1685516952937');
+		src: url('Hypericons.eot?t=1685517098648');
 		/* IE9*/
-		src: url('Hypericons.eot?t=1685516952937#iefix') format('embedded-opentype'),
+		src: url('Hypericons.eot?t=1685517098648#iefix') format('embedded-opentype'),
 			/* IE6-IE8 */
-			url("Hypericons.woff2?t=1685516952937") format("woff2"),
-			url("Hypericons.woff?t=1685516952937") format("woff"),
-			url('Hypericons.ttf?t=1685516952937') format('truetype'),
+			url("Hypericons.woff2?t=1685517098648") format("woff2"),
+			url("Hypericons.woff?t=1685517098648") format("woff"),
+			url('Hypericons.ttf?t=1685517098648') format('truetype'),
 			/* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-			url('Hypericons.svg?t=1685516952937#Hypericons') format('svg');
+			url('Hypericons.svg?t=1685517098648#Hypericons') format('svg');
 		/* iOS 4.1- */
 	}
 	
@@ -142,8 +142,8 @@
 	.hi-keyboard:after {content: "\ea5e";}
 		.hi-keyboard:before {content: "\ea5f";}
 	.hi-lasso-mono:after {content: "\ea60";}
-		.hi-lasso-mono:before {content: "\ea61";}
-	.hi-lasso:after {content: "\ea62";}
+	.hi-lasso:after {content: "\ea61";}
+		.hi-lasso:before {content: "\ea62";}
 	.hi-layer-mono:after {content: "\ea63";}
 	.hi-layer:after {content: "\ea64";}
 		.hi-layer:before {content: "\ea65";}
